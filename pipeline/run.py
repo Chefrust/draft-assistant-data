@@ -83,18 +83,37 @@ f['why'] = f.apply(why, axis=1)
 # Banged up: shown as information. From 2021-2026, only a Questionable tag cost points against our
 # projection (-11%); practice limits, recent listings and snap drops did not, once usage is in the model.
 inj_all = inj[inj.game_type == 'REG'] if 'game_type' in inj.columns else inj
+# each player's snap share in his last two games against his usual this season
+fa = pd.read_parquet(f'{WORK}/_feat.parquet')
+fa = fa[(fa.season == season) & (fa.week < week) & fa.offense_pct.notna()].sort_values('week')
+snap_hist = {}
+for pid_, x in fa.groupby('pid'):
+    if len(x) >= 4:
+        snap_hist[pid_] = (list(x.offense_pct.iloc[-2:]), float(x.offense_pct.iloc[:-2].median()))
+inj_all = inj_all[~inj_all.report_primary_injury.fillna('').str.contains('Not injury related') & ~inj_all.practice_primary_injury.fillna('').str.contains('Not injury related')]
 def banged(r):
+    """Only the signs worth a look: limited or no practice or a designation this week, an injury
+    listing last week or the week before, or a big snap drop last game. Full practice alone isn't flagged."""
+    clean = lambda v: '' if v is None or str(v).strip().lower() in ('none', 'nan', '') else str(v).strip()
     notes = []
     now = inj_all[(inj_all.gsis_id == r.pid) & (inj_all.week == week)]
     if len(now):
-        x = now.iloc[-1]; part = str(x.practice_status or '').replace(' in Practice', '').replace('Participation', 'participation').strip()
-        body = str(x.report_primary_injury or x.practice_primary_injury or '').strip()
-        clean = lambda v: '' if v is None or str(v).strip().lower() in ('none', 'nan', '') else str(v).strip()
-        bits = [b for b in [clean(body), clean(part).lower(), clean(x.report_status)] if b]
-        if bits: notes.append('This week: ' + ', '.join(bits))
-    past = inj_all[(inj_all.gsis_id == r.pid) & (inj_all.week.between(week - 3, week - 1))]
-    if len(past): notes.append('On the report ' + ', '.join(f'Week {int(w)}' for w in sorted(past.week.unique())))
-    if pd.notna(r.l_snap) and pd.notna(r.k_snap) and r.l_snap - r.k_snap >= .2: notes.append(f'Snaps fell to {r.k_snap * 100:.0f}% last game (usual {r.l_snap * 100:.0f}%)')
+        x = now.iloc[-1]
+        part = clean(x.practice_status); desig = clean(x.report_status)
+        body = clean(x.report_primary_injury) or clean(x.practice_primary_injury)
+        if desig or (part and not part.startswith('Full')):
+            bits = [body, part.replace(' in Practice', '').replace('Participation', 'participation').lower(), desig]
+            notes.append('This week: ' + ', '.join(b for b in bits if b))
+    past = inj_all[(inj_all.gsis_id == r.pid) & (inj_all.week.between(week - 2, week - 1))]
+    past = past[past.practice_status.fillna('').str.startswith(('Limited', 'Did Not')) | past.report_status.notna()]
+    if len(past):
+        body = clean(past.iloc[-1].report_primary_injury) or clean(past.iloc[-1].practice_primary_injury)
+        notes.append(('%s, ' % body if body else '') + 'hurt ' + ' and '.join(f'Week {int(w)}' for w in sorted(past.week.unique())))
+    sn = snap_hist.get(r.pid)
+    if sn is not None:
+        last2, usual = sn
+        if usual >= .4 and min(last2) <= usual - .25:
+            notes.append('Snaps ' + ' and '.join(f'{v * 100:.0f}%' for v in last2) + f' the last {len(last2)} games (usual {usual * 100:.0f}%)')
     return ' | '.join(notes)
 f['banged'] = f.apply(banged, axis=1)
 f['sleeper_id'] = f.sleeper_id.astype(str).str.replace(r'\.0$', '', regex=True)
