@@ -16,13 +16,16 @@ pw['tgt_sh'] = pw.tgt / pw.targets.clip(lower=1); pw['car_sh'] = pw.car / pw.rus
 pw['rzt_sh'] = pw.rz_tgt / pw.tm_rz_targets.clip(lower=1); pw['rzc_sh'] = pw.rz_car / pw.tm_rz_rush.clip(lower=1)
 pw['air_sh'] = pw.air / pw.tm_air.where(pw.tm_air > 0, 1)
 pw['opp_n'] = pw.tgt + pw.car
+pw['tm_ez'] = pw.groupby(['game_id', 'team']).ez_tgt.transform('sum')
+pw['ez_sh'] = pw.ez_tgt / pw.tm_ez.clip(lower=1)
+pw['adot'] = pw.air / pw.tgt.clip(lower=1)
 pw = pw.sort_values(['pid', 't']).reset_index(drop=True)
 def ew(col, hl, by='pid', w=None):
     s = pw.groupby(by)[col].transform(lambda x: x.shift().ewm(halflife=hl, min_periods=1).mean())
     return s
 for c in ['tgt_sh', 'car_sh', 'snap']:
     pw[f'k_{c}'] = ew(c, 1)
-for c in ['snap', 'tgt_sh', 'car_sh', 'rzt_sh', 'rzc_sh', 'air_sh', 'ppr', 'tgt', 'car', 'rec', 'rec_yd', 'rush_yd', 'rec_td', 'rush_td', 'att', 'pass_yd', 'pass_td', 'ints', 'qb_epa', 'gl_car']:
+for c in ['ez_sh', 'adot', 'snap', 'tgt_sh', 'car_sh', 'rzt_sh', 'rzc_sh', 'air_sh', 'ppr', 'tgt', 'car', 'rec', 'rec_yd', 'rush_yd', 'rec_td', 'rush_td', 'att', 'pass_yd', 'pass_td', 'ints', 'qb_epa', 'gl_car']:
     pw[f'e_{c}'] = ew(c, 3)
     pw[f'l_{c}'] = ew(c, 12)
 # efficiency, summed so far (ratio of sums), shrunk to position average
@@ -75,12 +78,12 @@ for c in ['pass_rate', 'plays', 'pass_epa', 'rush_epa', 'pts']:
     tg[f'te_{c}'] = tg.groupby('team')[c].transform(lambda x: x.shift().ewm(halflife=4, min_periods=1).mean())
 # defense: what opponents did against them, by position (fantasy points) and per play
 dpos = pw.groupby(['game_id', 'opp', 'position']).ppr.sum().unstack(fill_value=0).reset_index().rename(columns={'opp': 'def'})
-dteam = tg[['game_id', 'team', 'opp', 't', 'pass_epa', 'rush_epa', 'pts']].rename(columns={'opp': 'def', 'team': 'off'})
+dteam = tg[['game_id', 'team', 'opp', 't', 'pass_epa', 'rush_epa', 'pts', 'plays']].rename(columns={'opp': 'def', 'team': 'off'})
 dd = dteam.merge(dpos, on=['game_id', 'def']).sort_values(['def', 't'])
-for c in ['QB', 'RB', 'WR', 'TE', 'pass_epa', 'rush_epa', 'pts']:
+for c in ['QB', 'RB', 'WR', 'TE', 'pass_epa', 'rush_epa', 'pts', 'plays']:
     dd[f'd_{c}'] = dd.groupby('def')[c].transform(lambda x: x.shift().ewm(halflife=5, min_periods=1).mean())
 pw = pw.merge(tg[['game_id', 'team', 'te_pass_rate', 'te_plays', 'te_pass_epa', 'te_rush_epa', 'te_pts']], on=['game_id', 'team'], how='left')
-pw = pw.merge(dd[['game_id', 'def', 'd_QB', 'd_RB', 'd_WR', 'd_TE', 'd_pass_epa', 'd_rush_epa', 'd_pts']].rename(columns={'def': 'opp'}), on=['game_id', 'opp'], how='left')
+pw = pw.merge(dd[['game_id', 'def', 'd_QB', 'd_RB', 'd_WR', 'd_TE', 'd_pass_epa', 'd_rush_epa', 'd_pts', 'd_plays']].rename(columns={'def': 'opp'}), on=['game_id', 'opp'], how='left')
 pw['d_pos'] = np.select([pw.position == p for p in ['QB', 'RB', 'WR', 'TE']], [pw.d_QB, pw.d_RB, pw.d_WR, pw.d_TE])
 pw['wind'] = np.where(pw.indoor == 1, 0, pw.wind.fillna(0)); pw['temp'] = np.where(pw.indoor == 1, 70, pw.temp.fillna(60))
 pw.to_parquet(OUT)

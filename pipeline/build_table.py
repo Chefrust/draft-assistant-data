@@ -8,7 +8,8 @@ cols = ['game_id','season','week','season_type','posteam','defteam','home_team',
         'pass_touchdown','rush_touchdown','touchdown','td_player_id','fumble_lost','fumbled_1_player_id','two_point_conv_result','two_point_attempt',
         'passer_player_id','receiver_player_id','rusher_player_id','epa','qb_scramble','home_score','away_score']
 games, plays = [], []
-for y in range(2022, 2027):
+FIRST = int(os.environ.get('FIRST', '2022')); LAST = int(os.environ.get('LAST', '2026'))
+for y in range(FIRST, LAST + 1):
     f = f'{D}/play_by_play_{y}.parquet'
     p = pd.read_parquet(f, columns=cols); p = p[p.season_type == 'REG']
     plays.append(p)
@@ -27,14 +28,14 @@ tg = pd.DataFrame(tg)
 pp = p[p.play_type.isin(['pass', 'run'])]
 tv = pp.groupby(['game_id', 'posteam']).agg(dropbacks=('qb_dropback', 'sum'), rushes=('rush_attempt', 'sum'), plays=('play_type', 'size'),
      targets=('receiver_player_id', lambda x: x.notna().sum()), rz_t=('receiver_player_id', lambda x: 0)).reset_index().rename(columns={'posteam': 'team'})
-pp = pp.assign(rz=(pp.yardline_100 <= 20).astype(int), gl=(pp.yardline_100 <= 5).astype(int))
+pp = pp.assign(rz=(pp.yardline_100 <= 20).astype(int), gl=(pp.yardline_100 <= 5).astype(int), ez=(pp.air_yards >= pp.yardline_100).astype(int))
 tv2 = pp.groupby(['game_id', 'posteam']).apply(lambda x: pd.Series({
     'tm_rz_targets': x.receiver_player_id.notna()[x.rz == 1].sum(), 'tm_rz_rush': ((x.rush_attempt == 1) & (x.rz == 1)).sum(),
     'tm_air': x.air_yards.where(x.receiver_player_id.notna()).sum(), 'pass_epa': x.epa[x.qb_dropback == 1].mean(), 'rush_epa': x.epa[x.rush_attempt == 1].mean()})).reset_index().rename(columns={'posteam': 'team'})
 tv = tv.drop(columns='rz_t').merge(tv2, on=['game_id', 'team'])
 # --- player usage per game
 rec = pp[pp.receiver_player_id.notna()].groupby(['game_id', 'posteam', 'receiver_player_id']).agg(
-    tgt=('play_type', 'size'), rec=('complete_pass', 'sum'), rec_yd=('yards_gained', lambda x: 0), air=('air_yards', 'sum'), rz_tgt=('rz', 'sum')).reset_index()
+    tgt=('play_type', 'size'), rec=('complete_pass', 'sum'), rec_yd=('yards_gained', lambda x: 0), air=('air_yards', 'sum'), rz_tgt=('rz', 'sum'), ez_tgt=('ez', 'sum')).reset_index()
 c = pp[pp.receiver_player_id.notna()]
 rec['rec_yd'] = c.assign(y=c.yards_gained * c.complete_pass).groupby(['game_id', 'posteam', 'receiver_player_id']).y.sum().values
 rec['rec_td'] = c.groupby(['game_id', 'posteam', 'receiver_player_id']).pass_touchdown.sum().values
@@ -53,11 +54,21 @@ two = pd.concat([tp[['game_id', 'receiver_player_id']].rename(columns={'receiver
                  tp[['game_id', 'passer_player_id']].rename(columns={'passer_player_id': 'pid'})]).dropna().groupby(['game_id', 'pid']).size().rename('two').reset_index()
 pw = rec.merge(rush, on=['game_id', 'team', 'pid'], how='outer').merge(pas, on=['game_id', 'team', 'pid'], how='outer').merge(fl, on=['game_id', 'pid'], how='left').merge(two, on=['game_id', 'pid'], how='left').fillna(0)
 # --- rosters: name, position, sleeper id, and who was inactive
-ro = pd.concat([pd.read_parquet(f'{D}/roster_weekly_{y}.parquet', columns=['season', 'week', 'team', 'position', 'status', 'full_name', 'gsis_id', 'sleeper_id', 'pfr_id', 'game_type']) for y in range(2022, 2027)])
+ro = pd.concat([pd.read_parquet(f'{D}/roster_weekly_{y}.parquet', columns=['season', 'week', 'team', 'position', 'status', 'full_name', 'gsis_id', 'sleeper_id', 'pfr_id', 'game_type']) for y in range(FIRST, LAST + 1)])
 ro = ro[(ro.game_type == 'REG') & ro.position.isin(['QB', 'RB', 'WR', 'TE'])]
 ro = ro.merge(tg[['season', 'week', 'team', 'game_id']], on=['season', 'week', 'team'])
 pw = pw.merge(ro[['game_id', 'gsis_id', 'position', 'full_name', 'sleeper_id', 'pfr_id', 'status']].rename(columns={'gsis_id': 'pid'}), on=['game_id', 'pid'], how='left')
 pw = pw[pw.position.isin(['QB', 'RB', 'WR', 'TE'])]
+pw['zero'] = False
+if os.environ.get('ZERO', '1') == '1':
+    have = set(zip(pw.pid, pw.game_id))
+    seen_before = set(pw.pid)
+    z = ro[(ro.status == 'ACT') & ro.gsis_id.isin(seen_before)].rename(columns={'gsis_id': 'pid'})
+    z = z[[(a, b) not in have for a, b in zip(z.pid, z.game_id)]][['game_id', 'pid', 'team', 'position', 'full_name', 'sleeper_id', 'pfr_id', 'status']]
+    for c in pw.columns:
+        if c not in z.columns: z[c] = 0.0
+    z['zero'] = True
+    pw = pd.concat([pw, z[pw.columns]], ignore_index=True)
 pw['ppr'] = pw.rec + .1 * pw.rec_yd + 6 * pw.rec_td + .1 * pw.rush_yd + 6 * pw.rush_td + .04 * pw.pass_yd + 4 * pw.pass_td - pw.ints - 2 * pw.fum + 2 * pw.two
 pw = pw.merge(tg, on=['game_id', 'team']).merge(tv, on=['game_id', 'team'])
 pw.to_parquet(f'{S}/player_games.parquet'); tg.merge(tv, on=['game_id', 'team']).to_parquet(f'{S}/team_games.parquet'); ro.to_parquet(f'{S}/rosters.parquet')

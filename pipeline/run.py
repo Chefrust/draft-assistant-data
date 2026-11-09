@@ -10,7 +10,8 @@ os.makedirs(DATA, exist_ok=True)
 os.environ.update(DATA=DATA, WORK=WORK)
 NV = 'https://github.com/nflverse/nflverse-data/releases/download'
 season = int(os.environ.get('SEASON', '2026'))
-years = range(season - 4, season + 1)
+years = range(2018, season + 1)
+os.environ['FIRST'] = '2018'; os.environ['LAST'] = str(season)
 
 def get(url, path, always=False):
     if os.path.exists(path) and not always: return
@@ -21,7 +22,8 @@ for y in years:
     get(f'{NV}/pbp/play_by_play_{y}.parquet', f'{DATA}/play_by_play_{y}.parquet', cur)
     get(f'{NV}/weekly_rosters/roster_weekly_{y}.parquet', f'{DATA}/roster_weekly_{y}.parquet', cur)
     get(f'{NV}/snap_counts/snap_counts_{y}.parquet', f'{DATA}/snap_counts_{y}.parquet', cur)
-get(f'{NV}/injuries/injuries_{season}.parquet', f'{DATA}/injuries_{season}.parquet', True)
+for y in years:
+    get(f'{NV}/injuries/injuries_{y}.parquet', f'{DATA}/injuries_{y}.parquet', y == season)
 get('https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv', f'{DATA}/games.csv', True)
 
 sn = pd.concat([pd.read_parquet(f'{DATA}/snap_counts_{y}.parquet') for y in years])
@@ -78,8 +80,25 @@ def why(r):
     if r.position == 'QB' and r.games_season <= 1: w.append('Few starts this season')
     return ' | '.join(w)
 f['why'] = f.apply(why, axis=1)
+# Banged up: shown as information. From 2021-2026, only a Questionable tag cost points against our
+# projection (-11%); practice limits, recent listings and snap drops did not, once usage is in the model.
+inj_all = inj[inj.game_type == 'REG'] if 'game_type' in inj.columns else inj
+def banged(r):
+    notes = []
+    now = inj_all[(inj_all.gsis_id == r.pid) & (inj_all.week == week)]
+    if len(now):
+        x = now.iloc[-1]; part = str(x.practice_status or '').replace(' in Practice', '').replace('Participation', 'participation').strip()
+        body = str(x.report_primary_injury or x.practice_primary_injury or '').strip()
+        clean = lambda v: '' if v is None or str(v).strip().lower() in ('none', 'nan', '') else str(v).strip()
+        bits = [b for b in [clean(body), clean(part).lower(), clean(x.report_status)] if b]
+        if bits: notes.append('This week: ' + ', '.join(bits))
+    past = inj_all[(inj_all.gsis_id == r.pid) & (inj_all.week.between(week - 3, week - 1))]
+    if len(past): notes.append('On the report ' + ', '.join(f'Week {int(w)}' for w in sorted(past.week.unique())))
+    if pd.notna(r.l_snap) and pd.notna(r.k_snap) and r.l_snap - r.k_snap >= .2: notes.append(f'Snaps fell to {r.k_snap * 100:.0f}% last game (usual {r.l_snap * 100:.0f}%)')
+    return ' | '.join(notes)
+f['banged'] = f.apply(banged, axis=1)
 f['sleeper_id'] = f.sleeper_id.astype(str).str.replace(r'\.0$', '', regex=True)
-out = f[['season', 'week', 'sleeper_id', 'pid', 'full_name', 'position', 'team', 'opp', 'ppr', 'rec', 'rec_yd', 'rush_yd', 'rec_td', 'rush_td', 'pass_yd', 'pass_td', 'ints', 'why']]
+out = f[['season', 'week', 'sleeper_id', 'pid', 'full_name', 'position', 'team', 'opp', 'ppr', 'rec', 'rec_yd', 'rush_yd', 'rec_td', 'rush_td', 'pass_yd', 'pass_td', 'ints', 'why', 'banged']]
 out = out.rename(columns={'pid': 'gsis_id', 'full_name': 'name', 'ints': 'pass_int'})
 out = out.sort_values('ppr', ascending=False).round(3)
 out.to_csv(os.path.join(ROOT, 'projections.csv'), index=False)
