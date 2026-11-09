@@ -57,7 +57,7 @@ season,week,sleeper_id,gsis_id,name,position,team,opp,ppr,rec,rec_yd,rush_yd,rec
 2026,9,8136,00-0037256,Rachaad White,RB,WAS,LA,13.806,2.26,16.215,45.005,0.085,0.354,0.0,0.0,0.0,Snap share 52% | Target share 9% | Carry share 30% | Team total 22.0 | 38% of targets open with teammates out | 63% of carries open
 2026,9,12519,00-0040735,Luther Burden III,WR,CHI,TB,13.8,4.134,61.552,2.787,0.357,0.013,0.0,0.0,0.0,Snap share 57% | Target share 21% | Team total 27.0 | QB playing well
 2026,9,8148,00-0037240,Jameson Williams,WR,DET,MIA,13.742,3.766,58.006,0.784,0.415,0.007,0.0,0.0,0.0,Snap share 88% | Target share 20% | Team total 28.0 | QB playing well
-2026,9,3161,00-0032950,Carson Wentz,QB,MIN,BUF,13.604,0.095,1.389,11.427,0.024,0.097,208.617,0.862,0.98,Snap share 90% | Team total 21.0 | First game back
+2026,9,3161,00-0032950,Carson Wentz,QB,MIN,BUF,13.604,0.095,1.389,11.427,0.024,0.097,208.617,0.862,0.98,Snap share 90% | Team total 21.0
 2026,9,12527,00-0040122,Ashton Jeanty,RB,LV,SF,13.554,4.131,29.877,32.263,0.158,0.236,0.0,0.0,0.0,Snap share 64% | Target share 17% | Carry share 50% | Team total 21.5 | QB playing well | 9% of targets open with teammates out
 2026,9,6797,00-0036355,Justin Herbert,QB,LAC,HOU,13.441,0.139,1.863,19.825,0.023,0.116,194.923,0.761,0.772,Snap share 99% | Team total 17.5
 2026,9,5850,00-0035700,Josh Jacobs,RB,GB,NE,13.431,3.016,21.739,42.899,0.154,0.171,0.0,0.0,0.0,Snap share 54% | Target share 11% | Carry share 57% | Team total 20.8 | QB playing well | 30% of carries open
@@ -94,7 +94,7 @@ season,week,sleeper_id,gsis_id,name,position,team,opp,ppr,rec,rec_yd,rush_yd,rec
 2026,9,7526,00-0036613,Jaylen Waddle,WR,DEN,CAR,10.201,3.94,43.056,0.981,0.38,0.008,0.0,0.0,0.0,Snap share 61% | Target share 24% | Team total 23.8 | 17% of targets open with teammates out
 2026,9,11783,00-0039410,Ryan Flournoy,WR,DAL,IND,10.09,3.606,44.605,0.981,0.287,0.008,0.0,0.0,0.0,Snap share 71% | Target share 15% | Team total 28.0 | QB playing well | 34% of targets open with teammates out
 2026,9,9997,00-0039064,Zay Flowers,WR,BAL,JAX,10.084,5.311,52.466,1.484,0.218,0.014,0.0,0.0,0.0,Snap share 77% | Target share 29% | Team total 16.0 | QB playing poorly
-2026,9,5854,00-0035704,Drew Lock,QB,SEA,ARI,10.069,0.095,1.389,5.518,0.024,0.07,176.899,1.217,0.407,Snap share 67% | Team total 24.0 | First game back
+2026,9,5854,00-0035704,Drew Lock,QB,SEA,ARI,10.069,0.095,1.389,5.518,0.024,0.07,176.899,1.217,0.407,Snap share 67% | Team total 24.0
 2026,9,4866,00-0034844,Saquon Barkley,RB,PHI,NYG,9.856,1.419,10.727,47.607,0.049,0.717,0.0,0.0,0.0,Snap share 43% | Carry share 45% | Team total 17.8 | QB playing well | 72% of targets open with teammates out | 109% of carries open
 2026,9,9753,00-0039165,Zach Charbonnet,RB,SEA,ARI,9.798,2.055,15.822,47.58,0.084,0.258,0.0,0.0,0.0,Snap share 48% | Target share 9% | Carry share 39% | Team total 24.0 | QB playing well | Different QB this week | 20% of targets open with teammates out | 22% of carries open
 2026,9,9500,00-0038997,Josh Downs,WR,IND,DAL,9.74,3.46,40.468,0.926,0.244,0.007,0.0,0.0,0.0,Snap share 78% | Target share 19% | Team total 23.5 | QB playing poorly | 20% of targets open with teammates out
@@ -112,7 +112,7 @@ season,week,sleeper_id,gsis_id,name,position,team,opp,ppr,rec,rec_yd,rush_yd,rec
 2026,9,9502,00-0038977,Tank Dell,WR,HOU,LAC,9.248,2.764,49.948,2.329,0.349,0.014,0.0,0.0,0.0,Snap share 57% | Target share 14% | Team total 23.0 | QB playing well | 18% of targets open with teammates out
 2026,9,8134,00-0037261,Khalil Shakir,WR,BUF,MIN,9.133,3.577,40.823,0.738,0.219,0.007,0.0,0.0,0.0,Snap share 65% | Target share 19% | Team total 24.5 | QB playing well
 2026,9,4983,00-0034827,DJ Moore,WR,BUF,MIN,9.034,2.952,41.743,2.009,0.378,0.019,0.0,0.0,0.0,Snap share 65% | Target share 17% | Team total 24.5 | QB playing well
-2026,9,6011,00-0035289,Gardner Minshew,QB,ARI,SEA,9.031,0.09,1.33,6.606,0.024,0.068,155.497,0.344,0.532,Snap share 58% | Team total 15.5
+2026,9,6011,00-0035289,Gardner Minshew,QB,ARI,SEA,9.031,0.09,1.33,6.606,0.024,0.068,155.497,0.344,0.532,Snap share 58% | Team total 15.5 | Few starts this season
 2026,9,11435,00-0038797,Emanuel Wilson,RB,SEA,ARI,8.974,1.13,8.547,56.526,0.041,0.334,0.0,0.0,0.0,Snap share 42% | Carry share 52% | Team total 24.0 | QB playing well | Different QB this week | 20% of targets open with teammates out | 22% of carries open | First game back
 2026,9,9482,00-0039066,Michael Mayer,TE,LV,SF,8.921,3.761,41.111,0.576,0.161,0.007,0.0,0.0,0.0,Snap share 79% | Target share 16% | Team total 21.5 | QB playing well | 9% of targets open with teammates out
 2026,9,3214,00-0033090,Hunter Henry,TE,NE,GB,8.909,3.328,43.803,0.576,0.402,0.007,0.0,0.0,0.0,Snap share 61% | Target share 17% | Team total 23.8 | QB playing well | 38% of targets open with teammates out
@@ -183,7 +183,7 @@ season,week,sleeper_id,gsis_id,name,position,team,opp,ppr,rec,rec_yd,rush_yd,rec
 2026,9,4147,00-0033526,Samaje Perine,RB,CIN,ATL,5.482,1.233,8.086,26.471,0.035,0.231,0.0,0.0,0.0,Snap share 35% | Carry share 24% | Team total 27.8 | QB playing well | 20% of targets open with teammates out
 2026,9,8147,00-0037614,John Metchie III,WR,CAR,DEN,5.448,2.714,25.721,0.738,0.137,0.007,0.0,0.0,0.0,Snap share 52% | Target share 13% | Team total 20.8
 2026,9,7694,00-0037005,Tommy Tremble,TE,CAR,DEN,5.445,2.14,18.239,0.576,0.166,0.007,0.0,0.0,0.0,Snap share 58% | Target share 9% | Team total 20.8
-2026,9,13350,00-0040981,Joe Fagnano,QB,BAL,JAX,5.413,0.095,1.33,14.394,0.024,0.075,139.289,0.657,1.681,Snap share 40% | Team total 16.0
+2026,9,13350,00-0040981,Joe Fagnano,QB,BAL,JAX,5.413,0.095,1.33,14.394,0.024,0.075,139.289,0.657,1.681,Snap share 40% | Team total 16.0 | Few starts this season
 2026,9,7090,00-0036309,Darnell Mooney,WR,NYG,PHI,5.413,1.912,22.625,1.795,0.129,0.022,0.0,0.0,0.0,Snap share 59% | Target share 11% | Team total 20.8 | 15% of targets open with teammates out
 2026,9,2197,00-0031236,Brandin Cooks,WR,SF,LV,5.343,1.904,24.273,0.738,0.137,0.007,0.0,0.0,0.0,Snap share 48% | Target share 8% | Team total 30.0 | QB playing well | 39% of targets open with teammates out
 2026,9,10219,00-0038611,Chris Rodriguez Jr.,RB,JAX,BAL,5.333,0.86,7.187,24.306,0.034,0.357,0.0,0.0,0.0,Snap share 26% | Carry share 26% | Team total 24.5 | QB playing well
