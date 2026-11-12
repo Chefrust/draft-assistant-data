@@ -5,6 +5,10 @@ Input is a JSON file kept OUTSIDE this repo (the sites' own lists are not publis
      {"name": "DraftSharks", "date": "2026-11-04", "kind": "rank",  "rows": [["Jeremiah Smith","WR","Ohio State"], ...]},
      {"name": "KeepTradeCut", "date": "2026-11-12", "kind": "value", "rows": [["Jeremiah Smith", 9956], ...]}]}
 "rank" lists are in order, best first. "value" lists are ranked by value, keeping only players a rank list has.
+Offensive players only (QB, RB, WR, TE). The board keeps the top 48 by average rank.
+A list that doesn't rank a player counts him just past its last spot, but a short list (say a top 25)
+only counts against players the other lists put inside its depth: leaving out a consensus #40 says
+nothing when the list stops at 25.
 Only the averaged result is written: rookies_<class>.csv and rookies_updated.txt.
 Usage: python rookies/consensus.py /path/to/input.json
 """
@@ -15,11 +19,16 @@ def key(n):
     n = n.lower().replace("duce alexander", "deuce alexander")
     return re.sub(r"[^a-z]", "", re.sub(r"\b(jr|sr|ii|iii|iv)\b\.?", "", n))
 
+TOP = 48
+OFFENSE = {"QB", "RB", "WR", "TE"}
+
 def build(spec):
     info, ranks, depth = {}, {}, {}
     for s in [s for s in spec["sources"] if s["kind"] == "rank"]:
         ranks[s["name"]] = {}
-        for i, (n, p, sch) in enumerate(s["rows"], 1):
+        rows = [r for r in s["rows"] if r[1].upper() in OFFENSE]
+        s["rows"] = rows
+        for i, (n, p, sch) in enumerate(rows, 1):
             k = key(n)
             ranks[s["name"]].setdefault(k, i); info.setdefault(k, (n, p.upper(), sch))
         depth[s["name"]] = len(s["rows"])
@@ -29,11 +38,12 @@ def build(spec):
     out = []
     for k, (n, p, sch) in info.items():
         have = {src: r[k] for src, r in ranks.items() if k in r}
-        # A list that doesn't rank him counts him just past its last spot.
-        full = [have.get(src, depth[src] + 8) for src in ranks]
+        where = st.mean(have.values())
+        # Missing from a list: just past its last spot, if the others put him inside that list's depth.
+        full = [have[src] if src in have else depth[src] + 8 for src in ranks if src in have or where <= depth[src]]
         out.append((st.mean(full), n, p, sch, len(have), min(have.values()), max(have.values())))
     out.sort()
-    return out
+    return out[:TOP]
 
 def main(path):
     spec = json.loads(Path(path).read_text())
@@ -46,7 +56,7 @@ def main(path):
         for i, (a, n, p, sch, c, b, wr) in enumerate(out, 1):
             w.writerow([i, n, p, sch, round(a, 1), c, b, wr])
     (root / "rookies_updated.txt").write_text(
-        f"{spec['class']} class, {len(out)} players. Sources: " + "; ".join(f"{s['name']} ({s['date']})" for s in spec["sources"]) + "\n")
+        f"{spec['class']} class, top {len(out)} offensive players. Sources: " + "; ".join(f"{s['name']} ({s['date']})" for s in spec["sources"]) + "\n")
     print(len(out), "players")
 
 if __name__ == "__main__":
