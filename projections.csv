@@ -3,379 +3,370 @@ season,week,sleeper_id,gsis_id,name,position,team,opp,ppr,rec,rec_yd,rush_yd,rec
 2026,10,4034,00-0033280,Christian McCaffrey,RB,SF,DAL,23.597,4.103,36.769,61.099,0.287,0.783,0.0,0.0,0.0,Snap share 71% | Target share 19% | Carry share 49% | Team total 29.5 | QB playing well,Snaps 52% and 68% the last 2 games (usual 78%)
 2026,10,4984,00-0034857,Josh Allen,QB,BUF,NYJ,23.185,0.026,0.313,32.213,0.014,0.848,265.258,1.696,0.328,Snap share 95% | Team total 29.5,
 2026,10,9221,00-0039139,Jahmyr Gibbs,RB,DET,NE,22.049,4.11,33.742,87.39,0.199,0.907,0.0,0.0,0.0,Snap share 76% | Target share 15% | Carry share 76% | Team total 27.0 | QB playing well,
-2026,10,11564,00-0039851,Drake Maye,QB,NE,DET,21.801,0.022,0.313,21.249,0.014,0.18,306.826,2.672,0.98,Snap share 94% | Team total 24.5,
+2026,10,11564,00-0039851,Drake Maye,QB,NE,DET,21.169,0.022,0.354,21.906,0.014,0.182,298.609,2.581,1.042,Snap share 94% | Team total 24.5,
 2026,10,6770,00-0036442,Joe Burrow,QB,CIN,PIT,20.817,0.004,0.354,13.131,0.014,0.158,283.9,1.882,0.937,Snap share 98% | Team total 26.5,
+2026,10,9509,00-0038542,Bijan Robinson,RB,ATL,KC,20.171,3.448,32.875,83.875,0.168,0.55,0.0,0.0,0.0,Snap share 78% | Target share 16% | Carry share 71% | Team total 21.8 | 17% of carries open,
 2026,10,7564,00-0036900,Ja'Marr Chase,WR,CIN,PIT,20.138,6.557,89.669,0.4,0.55,0.002,0.0,0.0,0.0,Snap share 85% | Target share 30% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
-2026,10,9509,00-0038542,Bijan Robinson,RB,ATL,KC,19.9,3.472,32.37,83.387,0.167,0.527,0.0,0.0,0.0,Snap share 78% | Target share 16% | Carry share 71% | Team total 21.0 | 17% of carries open,
 2026,10,3294,00-0033077,Dak Prescott,QB,DAL,SF,19.616,0.08,0.313,9.573,0.014,0.124,276.8,1.197,0.795,Snap share 99% | Team total 26.0,
-2026,10,3163,00-0033106,Jared Goff,QB,DET,NE,19.464,0.02,0.313,5.893,0.014,0.096,278.497,1.63,1.106,Snap share 99% | Team total 27.0,
+2026,10,3163,00-0033106,Jared Goff,QB,DET,NE,19.464,0.02,0.313,5.893,0.014,0.096,278.497,1.63,1.106,Snap share 99% | Team total 27.0,"This week: Chest, limited participation"
+2026,10,9758,00-0039163,C.J. Stroud,QB,HOU,CLE,19.355,0.006,0.334,11.659,0.014,0.111,264.337,1.425,1.305,Snap share 96% | Team total 23.0,
 2026,10,8138,00-0037248,James Cook,RB,BUF,NYJ,19.17,2.027,16.645,104.495,0.08,1.032,0.0,0.0,0.0,Snap share 60% | Carry share 67% | Team total 29.5 | QB playing well,
 2026,10,9488,00-0038543,Jaxon Smith-Njigba,WR,SEA,LV,19.034,6.747,81.578,1.35,0.44,0.01,0.0,0.0,0.0,Snap share 84% | Target share 35% | Team total 23.5,
 2026,10,12545,00-0040743,Tyler Shough,QB,NO,CAR,18.837,0.033,0.414,26.946,0.014,0.258,269.813,1.58,1.19,Snap share 98% | Team total 25.5,
 2026,10,7523,00-0036971,Trevor Lawrence,QB,JAX,TEN,18.631,0.029,0.313,11.719,0.014,0.119,268.818,1.62,0.571,Snap share 95% | Team total 28.5,
-2026,10,7547,00-0036963,Amon-Ra St. Brown,WR,DET,NE,18.482,6.663,79.612,0.592,0.539,0.006,0.0,0.0,0.0,Snap share 81% | Target share 34% | Team total 27.0 | QB playing well,"Rib, hurt Week 9"
-2026,10,4046,00-0033873,Patrick Mahomes,QB,KC,ATL,18.396,0.013,0.313,17.137,0.014,0.156,266.314,1.707,0.655,Snap share 98% | Team total 24.5,
-2026,10,9758,00-0039163,C.J. Stroud,QB,HOU,CLE,18.343,0.005,0.319,11.659,0.014,0.111,270.503,1.334,1.218,Snap share 96% | Team total 22.0,
-2026,10,8151,00-0038134,Kenneth Walker III,RB,KC,ATL,17.967,2.769,19.693,93.245,0.15,0.732,0.0,0.0,0.0,Snap share 69% | Target share 13% | Carry share 71% | Team total 24.5 | QB playing well,
+2026,10,4046,00-0033873,Patrick Mahomes,QB,KC,ATL,18.507,0.013,0.313,17.137,0.014,0.156,263.786,1.669,0.673,Snap share 98% | Team total 24.8,
+2026,10,7547,00-0036963,Amon-Ra St. Brown,WR,DET,NE,18.482,6.663,79.612,0.592,0.539,0.006,0.0,0.0,0.0,Snap share 81% | Target share 34% | Team total 27.0 | QB playing well,"This week: Rib, limited participation | Rib, hurt Week 9"
+2026,10,8151,00-0038134,Kenneth Walker III,RB,KC,ATL,18.068,2.769,20.198,94.46,0.152,0.776,0.0,0.0,0.0,Snap share 69% | Target share 13% | Carry share 71% | Team total 24.8 | QB playing well,
 2026,10,8144,00-0037239,Chris Olave,WR,NO,CAR,17.889,6.304,81.459,0.26,0.519,0.005,0.0,0.0,0.0,Snap share 81% | Target share 29% | Team total 25.5 | 10% of targets open with teammates out,
-2026,10,9228,00-0039150,Bryce Young,QB,CAR,NO,17.688,0.021,0.313,5.527,0.014,0.068,222.012,1.676,0.586,Snap share 96% | Team total 23.0,
+2026,10,9228,00-0039150,Bryce Young,QB,CAR,NO,17.651,0.021,0.313,5.527,0.014,0.068,222.2,1.676,0.579,Snap share 96% | Team total 23.0,
 2026,10,6786,00-0036358,CeeDee Lamb,WR,DAL,SF,17.427,5.631,72.401,0.697,0.555,0.006,0.0,0.0,0.0,Snap share 81% | Target share 36% | Team total 26.0 | QB playing well,
 2026,10,96,00-0023459,Aaron Rodgers,QB,PIT,CIN,17.329,0.004,0.313,3.678,0.014,0.057,241.405,1.377,0.737,Snap share 98% | Team total 23.0,
-2026,10,9493,00-0039075,Puka Nacua,WR,LA,ARI,17.256,7.188,80.11,4.071,0.446,0.037,0.0,0.0,0.0,Snap share 85% | Target share 37% | Team total 24.5 | 12% of targets open with teammates out,
+2026,10,9493,00-0039075,Puka Nacua,WR,LA,ARI,17.256,7.133,80.135,4.071,0.446,0.037,0.0,0.0,0.0,Snap share 85% | Target share 37% | Team total 24.5 | 14% of targets open with teammates out,"This week: Knee, did not participate in practice"
+2026,10,11559,00-0039917,Michael Penix Jr.,QB,ATL,KC,16.618,0.027,0.351,13.067,0.014,0.122,247.936,1.902,0.737,Snap share 97% | Team total 21.8,
 2026,10,8228,00-0037228,Jaylen Warren,RB,PIT,CIN,16.61,2.764,23.219,73.277,0.125,0.404,0.0,0.0,0.0,Snap share 67% | Target share 12% | Carry share 63% | Team total 23.0,
-2026,10,11559,00-0039917,Michael Penix Jr.,QB,ATL,KC,16.588,0.027,0.351,13.067,0.014,0.122,246.502,2.043,0.745,Snap share 97% | Team total 21.0,
-2026,10,7594,00-0036555,Chuba Hubbard,RB,CAR,NO,16.192,3.373,22.672,73.168,0.144,0.509,0.0,0.0,0.0,Snap share 76% | Target share 12% | Carry share 68% | Team total 23.0,
-2026,10,421,00-0026498,Matthew Stafford,QB,LA,ARI,16.058,0.017,0.293,3.806,0.014,0.046,216.646,1.656,0.264,Snap share 99% | Team total 24.5,
-2026,10,11566,00-0039910,Jayden Daniels,QB,WAS,NYG,16.056,0.02,0.42,26.939,0.014,0.239,244.012,1.169,0.491,Snap share 93% | Team total 19.5,
+2026,10,6813,00-0036223,Jonathan Taylor,RB,IND,MIA,16.395,2.901,20.677,75.987,0.106,0.577,0.0,0.0,0.0,Snap share 73% | Target share 13% | Carry share 61% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,
+2026,10,7594,00-0036555,Chuba Hubbard,RB,CAR,NO,16.192,3.373,22.672,74.817,0.144,0.509,0.0,0.0,0.0,Snap share 76% | Target share 12% | Carry share 68% | Team total 23.0,
+2026,10,421,00-0026498,Matthew Stafford,QB,LA,ARI,16.058,0.017,0.293,3.806,0.014,0.046,215.773,1.656,0.271,Snap share 99% | Team total 24.5,
+2026,10,11566,00-0039910,Jayden Daniels,QB,WAS,NYG,16.056,0.02,0.379,26.721,0.014,0.248,242.82,1.146,0.505,Snap share 93% | Team total 19.0,
+2026,10,6804,00-0036264,Jordan Love,QB,GB,MIN,15.936,0.0,0.313,5.804,0.014,0.073,258.987,1.455,1.204,Snap share 94% | Team total 22.8,
 2026,10,8148,00-0037240,Jameson Williams,WR,DET,NE,15.857,4.281,67.497,1.342,0.66,0.01,0.0,0.0,0.0,Snap share 87% | Target share 18% | Team total 27.0 | QB playing well,
 2026,10,5967,00-0035261,Tony Pollard,RB,TEN,JAX,15.707,2.188,17.428,75.568,0.074,0.612,0.0,0.0,0.0,Snap share 66% | Target share 9% | Carry share 73% | Team total 18.0,
-2026,10,6804,00-0036264,Jordan Love,QB,GB,MIN,15.572,0.0,0.319,5.804,0.014,0.073,252.037,1.379,1.215,Snap share 94% | Team total 22.5,
-2026,10,8112,00-0037238,Drake London,WR,ATL,KC,15.43,4.694,66.319,0.272,0.366,0.005,0.0,0.0,0.0,Snap share 92% | Target share 27% | Team total 21.0,
+2026,10,5870,00-0035710,Daniel Jones,QB,IND,MIA,15.45,0.02,0.398,15.662,0.014,0.135,215.042,0.89,0.544,Snap share 94% | Team total 21.0,
+2026,10,8112,00-0037238,Drake London,WR,ATL,KC,15.349,4.694,65.889,0.272,0.366,0.005,0.0,0.0,0.0,Snap share 92% | Target share 27% | Team total 21.8,
 2026,10,4217,00-0033288,George Kittle,TE,SF,DAL,15.218,5.204,63.935,0.083,0.572,0.005,0.0,0.0,0.0,Snap share 83% | Target share 25% | Team total 29.5 | QB playing well,
+2026,10,6794,00-0036322,Justin Jefferson,WR,MIN,GB,14.95,5.154,61.498,0.48,0.479,0.005,0.0,0.0,0.0,Snap share 88% | Target share 30% | Team total 19.8 | QB playing poorly,
 2026,10,12522,00-0040676,Cam Ward,QB,TEN,JAX,14.9,0.0,0.374,18.111,0.014,0.148,187.622,1.172,0.782,Snap share 97% | Team total 18.0,
-2026,10,1166,00-0029604,Kirk Cousins,QB,LV,SEA,14.859,0.026,0.253,8.549,0.014,0.099,246.679,1.105,0.925,Snap share 97% | Team total 17.0,
-2026,10,6813,00-0036223,Jonathan Taylor,RB,IND,MIA,14.811,2.59,18.797,75.034,0.106,0.484,0.0,0.0,0.0,Snap share 73% | Target share 13% | Carry share 61% | Team total 21.0 | QB playing poorly,
-2026,10,2216,00-0031408,Mike Evans,WR,SF,DAL,14.801,4.313,62.936,0.272,0.504,0.005,0.0,0.0,0.0,Snap share 56% | Target share 24% | Team total 29.5 | QB playing well | First game back,"Ribs, hurt Week 9"
+2026,10,2216,00-0031408,Mike Evans,WR,SF,DAL,14.801,4.313,62.936,0.272,0.504,0.005,0.0,0.0,0.0,Snap share 56% | Target share 24% | Team total 29.5 | QB playing well | First game back,"This week: Achilles, did not participate in practice | Ribs, hurt Week 9"
 2026,10,9224,00-0038597,Chase Brown,RB,CIN,PIT,14.705,4.17,28.348,51.359,0.175,0.36,0.0,0.0,0.0,Snap share 68% | Target share 15% | Carry share 56% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
-2026,10,8150,00-0037840,Kyren Williams,RB,LA,ARI,14.689,2.565,19.176,59.78,0.134,0.545,0.0,0.0,0.0,Snap share 66% | Target share 11% | Carry share 55% | Team total 24.5 | 12% of targets open with teammates out,
-2026,10,6794,00-0036322,Justin Jefferson,WR,MIN,GB,14.654,5.163,61.442,0.48,0.397,0.005,0.0,0.0,0.0,Snap share 88% | Target share 30% | Team total 19.0 | QB playing poorly,
+2026,10,8150,00-0037840,Kyren Williams,RB,LA,ARI,14.689,2.565,19.228,59.78,0.134,0.545,0.0,0.0,0.0,Snap share 66% | Target share 11% | Carry share 55% | Team total 24.5 | 14% of targets open with teammates out,
 2026,10,8155,00-0038120,Breece Hall,RB,NYJ,BUF,14.646,2.303,17.666,63.806,0.099,0.445,0.0,0.0,0.0,Snap share 56% | Target share 10% | Carry share 62% | Team total 21.0,"Quadricep, hurt Week 8"
-2026,10,12526,00-0040124,Tetairoa McMillan,WR,CAR,NO,14.585,4.581,67.581,0.381,0.388,0.005,0.0,0.0,0.0,Snap share 82% | Target share 24% | Team total 23.0,
-2026,10,5870,00-0035710,Daniel Jones,QB,IND,MIA,14.568,0.027,0.278,15.003,0.014,0.132,207.818,1.112,0.491,Snap share 94% | Team total 21.0,
-2026,10,11604,00-0039338,Brock Bowers,TE,LV,SEA,14.509,5.909,69.569,1.334,0.376,0.008,0.0,0.0,0.0,Snap share 89% | Target share 27% | Team total 17.0,
+2026,10,12526,00-0040124,Tetairoa McMillan,WR,CAR,NO,14.585,4.618,67.195,0.381,0.388,0.005,0.0,0.0,0.0,Snap share 82% | Target share 24% | Team total 23.0,
 2026,10,7588,00-0036997,Javonte Williams,RB,DAL,SF,14.458,2.499,17.906,59.279,0.091,0.754,0.0,0.0,0.0,Snap share 71% | Target share 8% | Carry share 66% | Team total 26.0 | QB playing well,
-2026,10,8161,00-0038128,Malik Willis,QB,MIA,IND,14.446,0.014,0.253,16.131,0.014,0.149,174.973,0.762,0.675,Snap share 93% | Team total 17.5,
 2026,10,10859,00-0039065,Sam LaPorta,TE,DET,NE,13.992,4.634,52.912,0.282,0.45,0.005,0.0,0.0,0.0,Snap share 91% | Target share 18% | Team total 27.0 | QB playing well,
-2026,10,11632,00-0039337,Malik Nabers,WR,NYG,WAS,13.955,5.652,73.051,0.364,0.316,0.005,0.0,0.0,0.0,Snap share 78% | Target share 30% | Team total 22.0,
 2026,10,6801,00-0036410,Tee Higgins,WR,CIN,PIT,13.889,4.991,71.231,0.279,0.486,0.002,0.0,0.0,0.0,Snap share 78% | Target share 22% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
+2026,10,12518,00-0040128,Tyler Warren,TE,IND,MIA,13.884,5.083,57.105,0.728,0.292,0.034,0.0,0.0,0.0,Snap share 85% | Target share 24% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,
 2026,10,1373,00-0030565,Geno Smith,QB,NYJ,BUF,13.871,0.007,0.339,5.495,0.014,0.066,190.639,1.03,0.905,Snap share 99% | Team total 21.0,
-2026,10,8167,00-0038124,Christian Watson,WR,GB,MIN,13.699,5.018,71.074,0.396,0.332,0.002,0.0,0.0,0.0,Snap share 72% | Target share 23% | Team total 22.5 | QB playing well,"Rib, hurt Week 9 | Snaps 49% and 77% the last 2 games (usual 80%)"
-2026,10,8130,00-0037744,Trey McBride,TE,ARI,LA,13.433,6.442,62.065,0.0,0.347,0.003,0.0,0.0,0.0,Snap share 91% | Target share 27% | Team total 15.0 | 25% of targets open with teammates out,
-2026,10,11579,00-0039373,Audric Estimé,RB,NO,CAR,13.361,1.562,10.014,65.079,0.037,0.385,0.0,0.0,0.0,Snap share 44% | Carry share 39% | Team total 25.5 | 10% of targets open with teammates out | 54% of carries open,
-2026,10,12501,00-0040667,Matthew Golden,WR,GB,MIN,13.251,4.775,60.727,0.714,0.513,0.002,0.0,0.0,0.0,Snap share 78% | Target share 29% | Team total 22.5 | QB playing well,"Shoulder, hurt Week 8"
-2026,10,8146,00-0037740,Garrett Wilson,WR,NYJ,BUF,13.116,4.742,53.581,0.253,0.465,0.005,0.0,0.0,0.0,Snap share 88% | Target share 28% | Team total 21.0 | First game back,"Concussion, hurt Week 9"
-2026,10,7611,00-0036875,Rhamondre Stevenson,RB,NE,DET,13.071,2.913,26.818,44.862,0.179,0.435,0.0,0.0,0.0,Snap share 64% | Target share 12% | Carry share 40% | Team total 24.5 | QB playing well,
+2026,10,8167,00-0038124,Christian Watson,WR,GB,MIN,13.691,5.044,70.485,0.396,0.335,0.002,0.0,0.0,0.0,Snap share 72% | Target share 23% | Team total 22.8 | QB playing well,"Rib, hurt Week 9 | Snaps 49% and 77% the last 2 games (usual 80%)"
+2026,10,11632,00-0039337,Malik Nabers,WR,NYG,WAS,13.607,5.553,73.01,0.364,0.298,0.005,0.0,0.0,0.0,Snap share 78% | Target share 30% | Team total 21.5,
+2026,10,11579,00-0039373,Audric Estime,RB,NO,CAR,13.361,1.562,10.014,65.079,0.037,0.385,0.0,0.0,0.0,Snap share 44% | Carry share 39% | Team total 25.5 | 10% of targets open with teammates out | 54% of carries open,
+2026,10,12501,00-0040667,Matthew Golden,WR,GB,MIN,13.286,4.775,60.347,0.714,0.519,0.002,0.0,0.0,0.0,Snap share 78% | Target share 29% | Team total 22.8 | QB playing well,"Shoulder, hurt Week 8"
+2026,10,8146,00-0037740,Garrett Wilson,WR,NYJ,BUF,13.116,4.742,53.581,0.253,0.465,0.005,0.0,0.0,0.0,Snap share 88% | Target share 28% | Team total 21.0 | First game back,"This week: Concussion, limited participation | Concussion, hurt Week 9"
+2026,10,7611,00-0036875,Rhamondre Stevenson,RB,NE,DET,12.979,2.933,26.888,45.6,0.179,0.438,0.0,0.0,0.0,Snap share 64% | Target share 12% | Carry share 40% | Team total 24.5 | QB playing well | 8% of targets open with teammates out | 19% of carries open,"This week: Knee, did not participate in practice"
+2026,10,11604,00-0039338,Brock Bowers,TE,LV,SEA,12.864,5.287,59.07,1.099,0.312,0.019,0.0,0.0,0.0,Snap share 89% | Target share 27% | Team total 17.0 | Different QB this week,
 2026,10,6797,00-0036355,Justin Herbert,QB,LAC,BAL,12.83,0.027,0.253,17.093,0.014,0.089,183.01,0.897,0.646,Snap share 95% | Team total 17.0,
-2026,10,12495,00-0040198,Ollie Gordon II,RB,MIA,IND,12.754,1.459,10.25,67.26,0.049,0.363,0.0,0.0,0.0,Snap share 61% | Carry share 54% | Team total 17.5,
-2026,10,12518,00-0040128,Tyler Warren,TE,IND,MIA,12.662,4.573,49.017,0.728,0.287,0.034,0.0,0.0,0.0,Snap share 85% | Target share 24% | Team total 21.0 | QB playing poorly,
-2026,10,13276,00-0041511,Omar Cooper Jr.,WR,NYJ,BUF,12.562,4.137,62.541,0.391,0.303,0.005,0.0,0.0,0.0,Snap share 70% | Target share 18% | Team total 21.0,
+2026,10,7569,00-0036554,Nico Collins,WR,HOU,CLE,12.691,4.028,56.31,0.623,0.433,0.007,0.0,0.0,0.0,Snap share 72% | Target share 19% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,
+2026,10,13276,00-0041511,Omar Cooper Jr.,WR,NYJ,BUF,12.562,4.137,62.541,0.391,0.303,0.005,0.0,0.0,0.0,Snap share 70% | Target share 18% | Team total 21.0,"This week: Ankle, limited participation"
 2026,10,9487,00-0038606,Parker Washington,WR,JAX,TEN,12.56,3.8,60.872,0.886,0.523,0.007,0.0,0.0,0.0,Snap share 72% | Target share 23% | Team total 28.5 | QB playing well,
 2026,10,11576,00-0039794,Braelon Allen,RB,NYJ,BUF,12.542,2.345,18.052,52.616,0.071,0.264,0.0,0.0,0.0,Snap share 66% | Target share 9% | Carry share 55% | Team total 21.0,
-2026,10,12490,00-0040719,Bhayshul Tuten,RB,JAX,TEN,12.527,1.255,10.422,49.573,0.079,0.468,0.0,0.0,0.0,Snap share 46% | Carry share 48% | Team total 28.5 | QB playing well,"Ankle, hurt Week 9"
-2026,10,7569,00-0036554,Nico Collins,WR,HOU,CLE,12.484,3.906,55.713,0.623,0.421,0.007,0.0,0.0,0.0,Snap share 72% | Target share 19% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,
-2026,10,12527,00-0040122,Ashton Jeanty,RB,LV,SEA,11.941,4.083,29.467,37.872,0.126,0.198,0.0,0.0,0.0,Snap share 64% | Target share 18% | Carry share 48% | Team total 17.0,Snaps 40% and 64% the last 2 games (usual 72%)
+2026,10,12490,00-0040719,Bhayshul Tuten,RB,JAX,TEN,12.527,1.255,10.422,49.573,0.079,0.468,0.0,0.0,0.0,Snap share 46% | Carry share 48% | Team total 28.5 | QB playing well,"This week: Ankle, did not participate in practice | Ankle, hurt Week 9"
+2026,10,12527,00-0040122,Ashton Jeanty,RB,LV,SEA,12.24,3.906,28.537,38.667,0.122,0.207,0.0,0.0,0.0,Snap share 64% | Target share 18% | Carry share 48% | Team total 17.0 | Different QB this week,Snaps 40% and 64% the last 2 games (usual 72%)
 2026,10,3198,00-0032764,Derrick Henry,RB,BAL,LAC,11.78,1.046,8.034,82.821,0.047,0.569,0.0,0.0,0.0,Snap share 53% | Carry share 64% | Team total 21.5 | QB playing poorly,
-2026,10,6130,00-0035250,Devin Singletary,RB,NYG,WAS,11.731,1.957,15.221,55.332,0.069,0.477,0.0,0.0,0.0,Snap share 45% | Carry share 32% | Team total 22.0 | 46% of carries open,
+2026,10,10229,00-0039067,Rashee Rice,WR,KC,ATL,11.751,4.731,56.391,0.656,0.405,0.01,0.0,0.0,0.0,Snap share 61% | Target share 21% | Team total 24.8 | QB playing well,
 2026,10,9997,00-0039064,Zay Flowers,WR,BAL,LAC,11.68,4.622,65.2,4.074,0.247,0.03,0.0,0.0,0.0,Snap share 75% | Target share 31% | Team total 21.5 | QB playing poorly,
-2026,10,12474,00-0040583,Woody Marks,RB,HOU,CLE,11.655,2.175,17.473,62.321,0.083,0.229,0.0,0.0,0.0,Snap share 66% | Carry share 56% | Team total 22.0 | QB playing well | 13% of targets open with teammates out | 24% of carries open,
-2026,10,8137,00-0037247,George Pickens,WR,DAL,SF,11.655,4.345,64.13,0.236,0.329,0.005,0.0,0.0,0.0,Snap share 74% | Target share 20% | Team total 26.0 | QB playing well | First game back,"Hamstring, hurt Week 8 and Week 9 | Snaps 60% and 57% the last 2 games (usual 86%)"
-2026,10,10229,00-0039067,Rashee Rice,WR,KC,ATL,11.624,4.751,56.313,0.656,0.405,0.01,0.0,0.0,0.0,Snap share 61% | Target share 21% | Team total 24.5 | QB playing well,
-2026,10,13296,00-0041523,Caleb Douglas,WR,MIA,IND,11.511,3.614,52.221,0.41,0.28,0.005,0.0,0.0,0.0,Snap share 80% | Target share 24% | Team total 17.5,
+2026,10,8137,00-0037247,George Pickens,WR,DAL,SF,11.655,4.345,64.13,0.236,0.329,0.005,0.0,0.0,0.0,Snap share 74% | Target share 20% | Team total 26.0 | QB playing well | First game back,"This week: Hamstring, limited participation | Hamstring, hurt Week 8 and Week 9 | Snaps 60% and 57% the last 2 games (usual 86%)"
+2026,10,6130,00-0035250,Devin Singletary,RB,NYG,WAS,11.399,1.926,15.18,55.729,0.069,0.489,0.0,0.0,0.0,Snap share 45% | Carry share 32% | Team total 21.5 | 46% of carries open,
+2026,10,12474,00-0040583,Woody Marks,RB,HOU,CLE,11.353,2.24,17.574,61.72,0.087,0.229,0.0,0.0,0.0,Snap share 66% | Carry share 56% | Team total 23.0 | QB playing well | 13% of targets open with teammates out | 24% of carries open,"This week: Knee, limited participation"
+2026,10,8130,00-0037744,Trey McBride,TE,ARI,LA,11.218,5.939,59.278,0.0,0.24,0.003,0.0,0.0,0.0,Snap share 91% | Target share 27% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out,
+2026,10,9502,00-0038977,Tank Dell,WR,HOU,CLE,11.192,3.26,49.388,1.681,0.373,0.012,0.0,0.0,0.0,Snap share 55% | Target share 16% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,"This week: Hand, limited participation"
 2026,10,4035,00-0033906,Alvin Kamara,RB,NO,CAR,11.172,3.225,19.112,34.392,0.125,0.32,0.0,0.0,0.0,Snap share 43% | Target share 13% | Carry share 29% | Team total 25.5 | 10% of targets open with teammates out | 54% of carries open,
 2026,10,8126,00-0038117,Wan'Dale Robinson,WR,TEN,JAX,11.095,4.306,45.899,0.643,0.207,0.007,0.0,0.0,0.0,Snap share 75% | Target share 24% | Team total 18.0,
-2026,10,8132,00-0037263,Tyler Allgeier,RB,ARI,LA,11.077,2.441,16.141,46.926,0.075,0.232,0.0,0.0,0.0,Snap share 59% | Carry share 46% | Team total 15.0 | 25% of targets open with teammates out | 49% of carries open,"Toe, hurt Week 8"
-2026,10,5859,00-0035676,A.J. Brown,WR,NE,DET,11.044,4.267,48.755,0.253,0.458,0.005,0.0,0.0,0.0,Snap share 77% | Target share 23% | Team total 24.5 | QB playing well | First game back,"Ankle, hurt Week 8 and Week 9"
+2026,10,5859,00-0035676,A.J. Brown,WR,NE,DET,11.049,4.259,48.274,0.253,0.452,0.005,0.0,0.0,0.0,Snap share 77% | Target share 23% | Team total 24.5 | QB playing well | 8% of targets open with teammates out | First game back,"This week: Ankle, limited participation | Ankle, hurt Week 8 and Week 9"
+2026,10,1466,00-0030506,Travis Kelce,TE,KC,ATL,11.043,4.348,53.506,0.523,0.324,0.026,0.0,0.0,0.0,Snap share 78% | Target share 20% | Team total 24.8 | QB playing well,
 2026,10,11646,00-0039491,Jalen Coker,WR,CAR,NO,10.996,4.281,51.052,1.349,0.284,0.01,0.0,0.0,0.0,Snap share 74% | Target share 18% | Team total 23.0,
-2026,10,1466,00-0030506,Travis Kelce,TE,KC,ATL,10.978,4.348,53.478,0.523,0.324,0.026,0.0,0.0,0.0,Snap share 78% | Target share 20% | Team total 24.5 | QB playing well,
-2026,10,10232,00-0038559,Michael Wilson,WR,ARI,LA,10.955,4.853,53.913,1.652,0.282,0.008,0.0,0.0,0.0,Snap share 86% | Target share 26% | Team total 15.0 | 25% of targets open with teammates out,"Ribs, hurt Week 8"
-2026,10,9502,00-0038977,Tank Dell,WR,HOU,CLE,10.923,3.135,48.799,1.681,0.373,0.012,0.0,0.0,0.0,Snap share 55% | Target share 16% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,
 2026,10,9753,00-0039165,Zach Charbonnet,RB,SEA,LV,10.814,2.003,15.493,52.197,0.082,0.305,0.0,0.0,0.0,Snap share 49% | Target share 8% | Carry share 42% | Team total 23.5,
-2026,10,8131,00-0037838,Isaiah Likely,TE,NYG,WAS,10.78,4.156,41.793,0.066,0.301,0.005,0.0,0.0,0.0,Snap share 75% | Target share 22% | Team total 22.0,
+2026,10,8131,00-0037838,Isaiah Likely,TE,NYG,WAS,10.78,4.113,41.752,0.066,0.294,0.005,0.0,0.0,0.0,Snap share 75% | Target share 22% | Team total 21.5,
+2026,10,13296,00-0041523,Caleb Douglas,WR,MIA,IND,10.754,3.317,45.967,0.41,0.278,0.005,0.0,0.0,0.0,Snap share 80% | Target share 24% | Team total 17.5 | Different QB this week,
+2026,10,1479,00-0030279,Keenan Allen,WR,SF,DAL,10.733,3.97,50.084,0.277,0.351,0.005,0.0,0.0,0.0,Snap share 56% | Target share 22% | Team total 29.5 | QB playing well,
+2026,10,13298,00-0041547,KC Concepcion,WR,CLE,HOU,10.48,3.769,45.16,4.205,0.21,0.027,0.0,0.0,0.0,Snap share 78% | Target share 19% | Team total 18.5 | QB playing poorly,
 2026,10,13274,00-0041489,Germie Bernard,WR,PIT,CIN,10.388,3.788,42.849,0.731,0.203,0.005,0.0,0.0,0.0,Snap share 75% | Target share 19% | Team total 23.0,
-2026,10,2449,00-0031588,Stefon Diggs,WR,WAS,NYG,10.369,3.925,47.525,0.037,0.244,0.005,0.0,0.0,0.0,Snap share 60% | Target share 20% | Team total 19.5 | 9% of targets open with teammates out,
-2026,10,13279,00-0041438,Carnell Tate,WR,TEN,JAX,10.341,3.978,49.836,0.386,0.27,0.005,0.0,0.0,0.0,Snap share 82% | Target share 27% | Team total 18.0 | First game back,"Shoulder, hurt Week 8"
+2026,10,2449,00-0031588,Stefon Diggs,WR,WAS,NYG,10.369,3.937,48.388,0.037,0.244,0.005,0.0,0.0,0.0,Snap share 60% | Target share 20% | Team total 19.0 | 10% of targets open with teammates out,
+2026,10,13279,00-0041438,Carnell Tate,WR,TEN,JAX,10.341,3.978,49.836,0.386,0.27,0.005,0.0,0.0,0.0,Snap share 82% | Target share 27% | Team total 18.0 | First game back,"This week: Shoulder, did not participate in practice | Shoulder, hurt Week 8"
 2026,10,5846,00-0035640,DK Metcalf,WR,PIT,CIN,10.313,3.386,51.373,0.576,0.294,0.005,0.0,0.0,0.0,Snap share 92% | Target share 24% | Team total 23.0,
+2026,10,13346,00-0041037,Denzel Boston,WR,CLE,HOU,10.308,3.775,49.199,0.405,0.297,0.005,0.0,0.0,0.0,Snap share 90% | Target share 24% | Team total 18.5 | QB playing poorly,"This week: Toe, did not participate in practice"
 2026,10,11625,00-0039890,Adonai Mitchell,WR,NYJ,BUF,10.268,3.255,49.995,0.326,0.257,0.005,0.0,0.0,0.0,Snap share 69% | Target share 22% | Team total 21.0,
-2026,10,13298,00-0041547,KC Concepcion,WR,CLE,HOU,10.189,3.718,44.796,4.205,0.209,0.027,0.0,0.0,0.0,Snap share 78% | Target share 19% | Team total 17.5 | QB playing poorly,
+2026,10,9756,00-0038994,Jordan Addison,WR,MIN,GB,10.23,3.698,48.444,1.146,0.296,0.005,0.0,0.0,0.0,Snap share 91% | Target share 19% | Team total 19.8 | QB playing poorly,
 2026,10,5854,00-0035704,Drew Lock,QB,SEA,LV,10.171,0.02,0.218,3.617,0.014,0.022,238.824,1.435,0.654,Snap share 63% | Team total 23.5,"Elbow, hurt Week 8 and Week 9"
-2026,10,9756,00-0038994,Jordan Addison,WR,MIN,GB,10.168,3.724,48.923,1.146,0.218,0.005,0.0,0.0,0.0,Snap share 91% | Target share 19% | Team total 19.0 | QB playing poorly,
-2026,10,12481,00-0040715,Cam Skattebo,RB,NYG,WAS,10.126,1.404,10.499,50.767,0.048,0.515,0.0,0.0,0.0,Snap share 51% | Carry share 43% | Team total 22.0 | 46% of carries open | First game back,"Hamstring, hurt Week 9 | Snaps 8% and 56% the last 2 games (usual 63%)"
-2026,10,13346,00-0041037,Denzel Boston,WR,CLE,HOU,10.125,3.654,48.45,0.405,0.296,0.005,0.0,0.0,0.0,Snap share 90% | Target share 24% | Team total 17.5 | QB playing poorly,
 2026,10,5995,00-0034975,Justice Hill,RB,BAL,LAC,10.09,2.404,19.6,22.508,0.09,0.077,0.0,0.0,0.0,Snap share 44% | Target share 15% | Carry share 13% | Team total 21.5 | QB playing poorly,
-2026,10,12512,00-0040784,Quinshon Judkins,RB,CLE,HOU,10.047,1.652,10.547,36.467,0.055,0.254,0.0,0.0,0.0,Snap share 49% | Target share 8% | Carry share 60% | Team total 17.5 | QB playing poorly | 31% of carries open,Snaps 39% and 34% the last 2 games (usual 59%)
-2026,10,11586,00-0039738,Blake Corum,RB,LA,ARI,10.006,1.154,7.735,51.766,0.046,0.502,0.0,0.0,0.0,Snap share 32% | Carry share 38% | Team total 24.5 | 12% of targets open with teammates out,
+2026,10,12495,00-0040198,Ollie Gordon II,RB,MIA,IND,10.059,1.482,10.157,68.632,0.049,0.419,0.0,0.0,0.0,Snap share 61% | Carry share 54% | Team total 17.5 | Different QB this week,
+2026,10,12506,00-0040663,Harold Fannin Jr.,TE,CLE,HOU,10.032,4.157,44.742,0.411,0.215,0.011,0.0,0.0,0.0,Snap share 84% | Target share 19% | Team total 18.5 | QB playing poorly,"This week: Groin, limited participation | Groin, hurt Week 9"
+2026,10,11586,00-0039738,Blake Corum,RB,LA,ARI,10.006,1.154,7.735,51.766,0.046,0.502,0.0,0.0,0.0,Snap share 32% | Carry share 38% | Team total 24.5 | 14% of targets open with teammates out,
 2026,10,11834,00-0039424,Devaughn Vele,WR,NO,CAR,9.985,3.591,47.109,0.328,0.292,0.005,0.0,0.0,0.0,Snap share 88% | Target share 17% | Team total 25.5 | 10% of targets open with teammates out,
-2026,10,10236,00-0038933,Dalton Kincaid,TE,BUF,NYJ,9.853,3.376,40.068,0.134,0.349,0.005,0.0,0.0,0.0,Snap share 57% | Target share 16% | Team total 29.5 | QB playing well,"Chest, hurt Week 8"
-2026,10,8136,00-0037256,Rachaad White,RB,WAS,NYG,9.836,2.255,15.889,44.616,0.075,0.381,0.0,0.0,0.0,Snap share 53% | Target share 9% | Carry share 31% | Team total 19.5 | 9% of targets open with teammates out | 25% of carries open,
+2026,10,12481,00-0040715,Cam Skattebo,RB,NYG,WAS,9.928,1.404,10.458,50.947,0.048,0.53,0.0,0.0,0.0,Snap share 51% | Carry share 43% | Team total 21.5 | 46% of carries open | First game back,"Hamstring, hurt Week 9 | Snaps 8% and 56% the last 2 games (usual 63%)"
+2026,10,12512,00-0040784,Quinshon Judkins,RB,CLE,HOU,9.913,1.681,10.982,36.146,0.055,0.241,0.0,0.0,0.0,Snap share 49% | Target share 8% | Carry share 60% | Team total 18.5 | QB playing poorly | 31% of carries open,Snaps 39% and 34% the last 2 games (usual 59%)
+2026,10,10236,00-0038933,Dalton Kincaid,TE,BUF,NYJ,9.853,3.376,40.068,0.134,0.349,0.005,0.0,0.0,0.0,Snap share 57% | Target share 16% | Team total 29.5 | QB playing well,"This week: Ankle, limited participation | Chest, hurt Week 8"
+2026,10,8136,00-0037256,Rachaad White,RB,WAS,NYG,9.836,2.258,15.848,43.447,0.075,0.389,0.0,0.0,0.0,Snap share 53% | Target share 9% | Carry share 31% | Team total 19.0 | 10% of targets open with teammates out | 25% of carries open,
+2026,10,9501,00-0038621,DeMario Douglas,WR,NE,DET,9.833,3.534,42.106,0.568,0.276,0.007,0.0,0.0,0.0,Snap share 56% | Target share 17% | Team total 24.5 | QB playing well | 8% of targets open with teammates out,
 2026,10,11783,00-0039410,Ryan Flournoy,WR,DAL,SF,9.823,3.52,42.933,0.576,0.343,0.005,0.0,0.0,0.0,Snap share 77% | Target share 14% | Team total 26.0 | QB playing well,
-2026,10,1479,00-0030279,Keenan Allen,WR,IND,MIA,9.682,3.735,43.492,0.277,0.277,0.005,0.0,0.0,0.0,Snap share 56% | Target share 22% | Team total 21.0 | QB playing poorly,
-2026,10,9501,00-0038621,DeMario Douglas,WR,NE,DET,9.592,3.512,42.523,0.568,0.276,0.007,0.0,0.0,0.0,Snap share 56% | Target share 17% | Team total 24.5 | QB playing well,
-2026,10,12506,00-0040663,Harold Fannin Jr.,TE,CLE,HOU,9.574,4.062,44.288,0.428,0.214,0.011,0.0,0.0,0.0,Snap share 84% | Target share 19% | Team total 17.5 | QB playing poorly,"Groin, hurt Week 9"
-2026,10,12524,00-0040668,Shedeur Sanders,QB,CLE,HOU,9.571,0.0,0.346,14.886,0.014,0.069,225.277,0.833,0.709,Snap share 55% | Team total 17.5,
-2026,10,5850,00-0035700,Josh Jacobs,RB,GB,MIN,9.517,2.026,14.273,31.403,0.086,0.421,0.0,0.0,0.0,Snap share 46% | Target share 9% | Carry share 48% | Team total 22.5 | QB playing well,
-2026,10,10213,00-0038563,Tre Tucker,WR,LV,SEA,9.49,3.494,46.858,1.279,0.245,0.005,0.0,0.0,0.0,Snap share 70% | Target share 18% | Team total 17.0,
+2026,10,8132,00-0037263,Tyler Allgeier,RB,ARI,LA,9.814,2.662,16.683,47.514,0.073,0.274,0.0,0.0,0.0,Snap share 59% | Carry share 46% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out | 53% of carries open,"Toe, hurt Week 8"
+2026,10,12524,00-0040668,Shedeur Sanders,QB,CLE,HOU,9.708,0.0,0.387,14.87,0.014,0.069,222.172,0.925,0.862,Snap share 55% | Team total 18.5,
+2026,10,5850,00-0035700,Josh Jacobs,RB,GB,MIN,9.494,2.037,14.658,31.596,0.086,0.409,0.0,0.0,0.0,Snap share 46% | Target share 9% | Carry share 48% | Team total 22.8 | QB playing well,"This week: Finger, did not participate in practice"
 2026,10,7021,00-0036139,Rico Dowdle,RB,PIT,CIN,9.45,2.005,16.033,36.136,0.07,0.322,0.0,0.0,0.0,Snap share 46% | Target share 10% | Carry share 43% | Team total 23.0,
 2026,10,11603,00-0039793,AJ Barner,TE,SEA,LV,9.382,3.292,31.241,4.347,0.22,0.112,0.0,0.0,0.0,Snap share 84% | Target share 14% | Team total 23.5,
-2026,10,11610,00-0039880,Malik Washington,WR,MIA,IND,9.301,3.32,38.16,4.303,0.19,0.029,0.0,0.0,0.0,Snap share 77% | Target share 20% | Team total 17.5,
-2026,10,4199,00-0033293,Aaron Jones,RB,MIN,GB,9.295,1.893,11.81,47.815,0.055,0.38,0.0,0.0,0.0,Snap share 52% | Target share 10% | Carry share 50% | Team total 19.0 | QB playing poorly,Snaps 40% and 35% the last 2 games (usual 76%)
-2026,10,5872,00-0035719,Deebo Samuel Sr.,WR,SF,DAL,9.251,3.271,30.885,6.791,0.301,0.088,0.0,0.0,0.0,Snap share 62% | Target share 17% | Team total 29.5 | QB playing well | First game back,"Hamstring, hurt Week 9"
-2026,10,7553,00-0036970,Kyle Pitts,TE,ATL,KC,9.197,3.697,34.474,0.078,0.171,0.005,0.0,0.0,0.0,Snap share 65% | Target share 18% | Team total 21.0,
+2026,10,5872,00-0035719,Deebo Samuel Sr.,WR,SF,DAL,9.251,3.271,30.885,6.791,0.301,0.088,0.0,0.0,0.0,Snap share 62% | Target share 17% | Team total 29.5 | QB playing well | First game back,"This week: Hamstring, limited participation | Hamstring, hurt Week 9"
+2026,10,4199,00-0033293,Aaron Jones,RB,MIN,GB,9.21,1.906,12.172,47.276,0.055,0.359,0.0,0.0,0.0,Snap share 52% | Target share 10% | Carry share 50% | Team total 19.8 | QB playing poorly,Snaps 40% and 35% the last 2 games (usual 76%)
+2026,10,7553,00-0036970,Kyle Pitts,TE,ATL,KC,9.202,3.697,35.11,0.078,0.175,0.005,0.0,0.0,0.0,Snap share 65% | Target share 18% | Team total 21.8,
 2026,10,8134,00-0037261,Khalil Shakir,WR,BUF,NYJ,9.187,3.827,33.976,0.26,0.264,0.005,0.0,0.0,0.0,Snap share 61% | Target share 18% | Team total 29.5 | QB playing well,
-2026,10,11565,00-0039923,J.J. McCarthy,QB,NYG,WAS,9.07,0.019,0.365,10.084,0.014,0.098,198.842,1.071,0.471,Snap share 64% | Team total 22.0,
-2026,10,5947,00-0034960,Jakobi Meyers,WR,JAX,TEN,9.059,3.457,48.699,0.67,0.316,0.009,0.0,0.0,0.0,Snap share 74% | Target share 19% | Team total 28.5 | QB playing well,"Hamstring, hurt Week 8 and Week 9 | Snaps 54% and 68% the last 2 games (usual 82%)"
-2026,10,9482,00-0039066,Michael Mayer,TE,LV,SEA,8.995,3.607,33.895,0.162,0.155,0.005,0.0,0.0,0.0,Snap share 78% | Target share 15% | Team total 17.0,
+2026,10,5947,00-0034960,Jakobi Meyers,WR,JAX,TEN,9.059,3.457,48.699,0.67,0.316,0.009,0.0,0.0,0.0,Snap share 74% | Target share 19% | Team total 28.5 | QB playing well,"This week: Ankle, did not participate in practice | Hamstring, hurt Week 8 and Week 9 | Snaps 54% and 68% the last 2 games (usual 82%)"
 2026,10,13286,00-0041512,Jadarian Price,RB,SEA,LV,8.992,2.111,18.017,37.71,0.09,0.215,0.0,0.0,0.0,Snap share 38% | Target share 10% | Carry share 37% | Team total 23.5,
+2026,10,9484,00-0038996,Tucker Kraft,TE,GB,MIN,8.9,3.958,45.844,1.924,0.337,0.014,0.0,0.0,0.0,Snap share 83% | Target share 16% | Team total 22.8 | QB playing well,
+2026,10,11565,00-0039923,J.J. McCarthy,QB,NYG,WAS,8.872,0.019,0.323,10.084,0.014,0.098,201.797,1.076,0.459,Snap share 64% | Team total 21.5,
+2026,10,10213,00-0038563,Tre Tucker,WR,LV,SEA,8.866,3.382,42.944,1.3,0.207,0.007,0.0,0.0,0.0,Snap share 70% | Target share 18% | Team total 17.0 | Different QB this week,
 2026,10,9480,00-0038935,Brenton Strange,TE,JAX,TEN,8.837,3.384,42.327,0.0,0.329,0.005,0.0,0.0,0.0,Snap share 74% | Target share 15% | Team total 28.5 | QB playing well,Snaps 52% and 79% the last 2 games (usual 79%)
 2026,10,9754,00-0038544,Quentin Johnston,WR,LAC,BAL,8.835,2.528,34.56,1.204,0.195,0.01,0.0,0.0,0.0,Snap share 79% | Target share 13% | Team total 17.0 | QB playing poorly,
-2026,10,9484,00-0038996,Tucker Kraft,TE,GB,MIN,8.802,3.958,45.345,1.924,0.337,0.014,0.0,0.0,0.0,Snap share 83% | Target share 16% | Team total 22.5 | QB playing well,
-2026,10,11624,00-0039894,Xavier Worthy,WR,KC,ATL,8.768,3.515,40.949,1.099,0.256,0.006,0.0,0.0,0.0,Snap share 82% | Target share 19% | Team total 24.5 | QB playing well,
-2026,10,10218,00-0038618,Xavier Hutchinson,WR,HOU,CLE,8.699,3.144,38.0,1.787,0.186,0.029,0.0,0.0,0.0,Snap share 58% | Target share 16% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,
-2026,10,12469,00-0040162,Dylan Sampson,RB,CLE,HOU,8.658,2.672,18.385,17.979,0.104,0.123,0.0,0.0,0.0,Snap share 42% | Target share 13% | Carry share 19% | Team total 17.5 | QB playing poorly | 31% of carries open,
-2026,10,9500,00-0038997,Josh Downs,WR,IND,MIA,8.657,3.142,36.002,0.587,0.263,0.005,0.0,0.0,0.0,Snap share 78% | Target share 19% | Team total 21.0 | QB playing poorly,
-2026,10,13301,00-0041040,Antonio Williams,WR,WAS,NYG,8.589,3.087,37.473,0.383,0.191,0.005,0.0,0.0,0.0,Snap share 70% | Target share 17% | Team total 19.5 | 9% of targets open with teammates out,
-2026,10,4177,00-0033555,Mack Hollins,WR,NE,DET,8.568,3.448,39.806,0.258,0.264,0.005,0.0,0.0,0.0,Snap share 67% | Target share 18% | Team total 24.5 | QB playing well,"Calf, hurt Week 9 | Snaps 41% and 68% the last 2 games (usual 71%)"
-2026,10,6011,00-0035289,Gardner Minshew,QB,ARI,LA,8.246,0.014,0.28,3.963,0.014,0.018,204.074,0.93,1.016,Snap share 56% | Team total 15.0,
+2026,10,9482,00-0039066,Michael Mayer,TE,LV,SEA,8.78,3.396,33.309,0.162,0.161,0.005,0.0,0.0,0.0,Snap share 78% | Target share 15% | Team total 17.0 | Different QB this week,
+2026,10,11624,00-0039894,Xavier Worthy,WR,KC,ATL,8.768,3.515,41.026,1.099,0.256,0.006,0.0,0.0,0.0,Snap share 82% | Target share 19% | Team total 24.8 | QB playing well,
+2026,10,10218,00-0038618,Xavier Hutchinson,WR,HOU,CLE,8.699,3.276,38.38,1.787,0.186,0.029,0.0,0.0,0.0,Snap share 58% | Target share 16% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,
+2026,10,4177,00-0033555,Mack Hollins,WR,NE,DET,8.698,3.397,39.608,0.258,0.264,0.005,0.0,0.0,0.0,Snap share 67% | Target share 18% | Team total 24.5 | QB playing well | 8% of targets open with teammates out,"Calf, hurt Week 9 | Snaps 41% and 68% the last 2 games (usual 71%)"
+2026,10,9500,00-0038997,Josh Downs,WR,KC,ATL,8.673,3.493,39.37,0.587,0.284,0.005,0.0,0.0,0.0,Snap share 78% | Target share 19% | Team total 24.8 | QB playing well,
+2026,10,13301,00-0041040,Antonio Williams,WR,WAS,NYG,8.589,3.113,37.569,0.383,0.186,0.005,0.0,0.0,0.0,Snap share 70% | Target share 17% | Team total 19.0 | 10% of targets open with teammates out,
+2026,10,12469,00-0040162,Dylan Sampson,RB,CLE,HOU,8.551,2.708,18.819,17.657,0.105,0.123,0.0,0.0,0.0,Snap share 42% | Target share 13% | Carry share 19% | Team total 18.5 | QB playing poorly | 31% of carries open,
 2026,10,4983,00-0034827,DJ Moore,WR,BUF,NYJ,8.191,3.328,42.242,3.076,0.3,0.014,0.0,0.0,0.0,Snap share 64% | Target share 17% | Team total 29.5 | QB playing well,"Shoulder, hurt Week 8 and Week 9"
-2026,10,8119,00-0037741,Jahan Dotson,WR,ATL,KC,8.165,1.959,31.369,0.236,0.176,0.005,0.0,0.0,0.0,Snap share 71% | Target share 13% | Team total 21.0,
-2026,10,5844,00-0035229,T.J. Hockenson,TE,MIN,GB,8.118,3.838,36.218,0.083,0.194,0.005,0.0,0.0,0.0,Snap share 71% | Target share 19% | Team total 19.0 | QB playing poorly,
-2026,10,8210,00-0037809,Chig Okonkwo,TE,WAS,NYG,8.025,3.8,33.686,0.083,0.164,0.005,0.0,0.0,0.0,Snap share 69% | Target share 18% | Team total 19.5 | 9% of targets open with teammates out,
-2026,10,13285,00-0041042,Malachi Fields,WR,NYG,WAS,7.977,2.655,39.945,0.374,0.237,0.005,0.0,0.0,0.0,Snap share 78% | Target share 15% | Team total 22.0,
+2026,10,5844,00-0035229,T.J. Hockenson,TE,MIN,GB,8.176,3.838,36.555,0.083,0.212,0.005,0.0,0.0,0.0,Snap share 71% | Target share 19% | Team total 19.8 | QB playing poorly,"This week: Wrist, did not participate in practice"
+2026,10,8119,00-0037741,Jahan Dotson,WR,ATL,KC,8.17,1.959,30.959,0.236,0.176,0.005,0.0,0.0,0.0,Snap share 71% | Target share 13% | Team total 21.8,
+2026,10,11610,00-0039880,Malik Washington,WR,MIA,IND,8.076,2.939,35.781,4.059,0.183,0.029,0.0,0.0,0.0,Snap share 77% | Target share 20% | Team total 17.5 | Different QB this week,
+2026,10,8210,00-0037809,Chig Okonkwo,TE,WAS,NYG,8.025,3.834,34.383,0.083,0.163,0.005,0.0,0.0,0.0,Snap share 69% | Target share 18% | Team total 19.0 | 10% of targets open with teammates out,
+2026,10,13285,00-0041042,Malachi Fields,WR,NYG,WAS,7.977,2.634,39.903,0.374,0.229,0.005,0.0,0.0,0.0,Snap share 78% | Target share 15% | Team total 21.5,
 2026,10,2505,00-0031610,Darren Waller,TE,CAR,NO,7.949,2.827,34.053,0.083,0.232,0.005,0.0,0.0,0.0,Snap share 50% | Target share 14% | Team total 23.0,
 2026,10,12507,00-0040666,Omarion Hampton,RB,LAC,BAL,7.937,1.459,9.756,27.891,0.041,0.277,0.0,0.0,0.0,Snap share 43% | Carry share 43% | Team total 17.0 | QB playing poorly,
 2026,10,4039,00-0033908,Cooper Kupp,WR,SEA,LV,7.929,3.023,32.578,0.264,0.204,0.005,0.0,0.0,0.0,Snap share 75% | Target share 12% | Team total 23.5,
-2026,10,8408,00-0037525,Jordan Mason,RB,MIN,GB,7.689,1.22,7.834,48.279,0.039,0.332,0.0,0.0,0.0,Snap share 40% | Carry share 44% | Team total 19.0 | QB playing poorly,Snaps 28% and 48% the last 2 games (usual 55%)
-2026,10,3214,00-0033090,Hunter Henry,TE,NE,DET,7.631,3.138,34.369,0.078,0.295,0.005,0.0,0.0,0.0,Snap share 58% | Target share 15% | Team total 24.5 | QB playing well,"Foot, hurt Week 9 | Snaps 13% and 49% the last 2 games (usual 76%)"
+2026,10,8408,00-0037525,Jordan Mason,RB,MIN,GB,7.689,1.222,7.959,47.741,0.039,0.332,0.0,0.0,0.0,Snap share 40% | Carry share 44% | Team total 19.8 | QB playing poorly,Snaps 28% and 48% the last 2 games (usual 55%)
+2026,10,3214,00-0033090,Hunter Henry,TE,NE,DET,7.638,3.196,34.3,0.078,0.295,0.005,0.0,0.0,0.0,Snap share 58% | Target share 15% | Team total 24.5 | QB playing well | 8% of targets open with teammates out,"This week: Foot, limited participation | Foot, hurt Week 9 | Snaps 13% and 49% the last 2 games (usual 76%)"
+2026,10,9504,00-0038608,Kayshon Boutte,WR,HOU,CLE,7.634,2.487,29.079,0.345,0.287,0.005,0.0,0.0,0.0,Snap share 49% | Target share 11% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,Snaps 31% and 33% the last 2 games (usual 60%)
+2026,10,5001,00-0034383,Dalton Schultz,TE,HOU,CLE,7.622,3.337,31.3,0.083,0.187,0.005,0.0,0.0,0.0,Snap share 55% | Target share 16% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,
 2026,10,4993,00-0034829,Mike Gesicki,TE,CIN,PIT,7.618,2.359,23.032,0.064,0.207,0.005,0.0,0.0,0.0,Snap share 48% | Target share 8% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
 2026,10,7600,00-0036894,Pat Freiermuth,TE,PIT,CIN,7.582,2.861,28.343,1.237,0.21,0.021,0.0,0.0,0.0,Snap share 61% | Target share 12% | Team total 23.0,
-2026,10,5001,00-0034383,Dalton Schultz,TE,HOU,CLE,7.561,3.152,31.237,0.083,0.183,0.005,0.0,0.0,0.0,Snap share 55% | Target share 16% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,
+2026,10,13421,00-0041395,Eli Raridon,TE,NE,DET,7.526,3.025,33.124,0.162,0.249,0.005,0.0,0.0,0.0,Snap share 61% | Target share 14% | Team total 24.5 | QB playing well | 8% of targets open with teammates out,
 2026,10,11637,00-0039901,Keon Coleman,WR,BUF,NYJ,7.504,2.584,37.107,0.384,0.249,0.005,0.0,0.0,0.0,Snap share 69% | Target share 15% | Team total 29.5 | QB playing well,"Shoulder, hurt Week 9"
-2026,10,9504,00-0038608,Kayshon Boutte,WR,HOU,CLE,7.5,2.391,29.436,0.345,0.287,0.005,0.0,0.0,0.0,Snap share 49% | Target share 11% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,Snaps 31% and 33% the last 2 games (usual 60%)
-2026,10,10219,00-0038611,Chris Rodriguez Jr.,RB,JAX,TEN,7.499,1.013,8.492,30.121,0.049,0.307,0.0,0.0,0.0,Snap share 30% | Carry share 28% | Team total 28.5 | QB playing well,"Hand, hurt Week 9"
-2026,10,13337,00-0041013,Emmett Johnson,RB,KC,ATL,7.497,1.434,12.589,17.224,0.066,0.085,0.0,0.0,0.0,Snap share 26% | Carry share 10% | Team total 24.5 | QB playing well,
+2026,10,10219,00-0038611,Chris Rodriguez Jr.,RB,JAX,TEN,7.499,1.013,8.492,30.121,0.049,0.307,0.0,0.0,0.0,Snap share 30% | Carry share 28% | Team total 28.5 | QB playing well,"This week: Hand, limited participation | Hand, hurt Week 9"
+2026,10,13337,00-0041013,Emmett Johnson,RB,KC,ATL,7.497,1.434,12.63,17.224,0.066,0.085,0.0,0.0,0.0,Snap share 26% | Carry share 10% | Team total 24.8 | QB playing well,
 2026,10,7002,00-0036040,Juwan Johnson,TE,NO,CAR,7.478,2.905,26.135,0.066,0.239,0.005,0.0,0.0,0.0,Snap share 62% | Target share 12% | Team total 25.5 | 10% of targets open with teammates out,
 2026,10,12498,00-0040736,Mason Taylor,TE,NYJ,BUF,7.396,3.157,28.852,0.132,0.188,0.005,0.0,0.0,0.0,Snap share 64% | Target share 14% | Team total 21.0,
-2026,10,13421,00-0041395,Eli Raridon,TE,NE,DET,7.395,2.916,33.442,0.162,0.249,0.005,0.0,0.0,0.0,Snap share 61% | Target share 14% | Team total 24.5 | QB playing well,
-2026,10,4663,00-0033699,Austin Ekeler,RB,WAS,NYG,7.367,1.912,11.649,32.191,0.065,0.136,0.0,0.0,0.0,Snap share 36% | Carry share 27% | Team total 19.5 | 9% of targets open with teammates out | 25% of carries open,
+2026,10,4663,00-0033699,Austin Ekeler,RB,WAS,NYG,7.367,1.915,11.608,32.033,0.064,0.136,0.0,0.0,0.0,Snap share 36% | Carry share 27% | Team total 19.0 | 10% of targets open with teammates out | 25% of carries open,
 2026,10,12634,00-0040172,Jordan Watkins,WR,SF,DAL,7.304,2.223,32.643,0.374,0.198,0.005,0.0,0.0,0.0,Snap share 55% | Target share 8% | Team total 29.5 | QB playing well,
 2026,10,9479,00-0038558,Darnell Washington,TE,PIT,CIN,7.176,2.661,30.133,0.151,0.181,0.005,0.0,0.0,0.0,Snap share 62% | Target share 12% | Team total 23.0,
-2026,10,8172,00-0037252,Greg Dulcich,TE,MIA,IND,7.148,3.227,34.388,0.135,0.171,0.01,0.0,0.0,0.0,Snap share 62% | Target share 17% | Team total 17.5,
-2026,10,3271,00-0033110,Tyler Higbee,TE,LA,ARI,7.138,2.839,28.304,0.061,0.251,0.005,0.0,0.0,0.0,Snap share 70% | Target share 11% | Team total 24.5 | 12% of targets open with teammates out,
-2026,10,6865,00-0036244,Colby Parkinson,TE,LA,ARI,7.001,2.753,23.1,0.047,0.201,0.005,0.0,0.0,0.0,Snap share 68% | Target share 12% | Team total 24.5 | 12% of targets open with teammates out,"Ribs, hurt Week 8 and Week 9"
+2026,10,12542,00-0040563,Efton Chism III,WR,NE,DET,7.169,2.59,33.09,0.355,0.247,0.005,0.0,0.0,0.0,Snap share 56% | Target share 11% | Team total 24.5 | QB playing well | 8% of targets open with teammates out,
+2026,10,3271,00-0033110,Tyler Higbee,TE,LA,ARI,7.138,2.839,28.486,0.061,0.251,0.005,0.0,0.0,0.0,Snap share 70% | Target share 11% | Team total 24.5 | 14% of targets open with teammates out,
+2026,10,6865,00-0036244,Colby Parkinson,TE,LA,ARI,7.038,2.753,23.281,0.047,0.201,0.005,0.0,0.0,0.0,Snap share 68% | Target share 12% | Team total 24.5 | 14% of targets open with teammates out,"This week: Ribs, limited participation | Ribs, hurt Week 8 and Week 9"
 2026,10,13414,00-0041052,Kaelon Black,RB,SF,DAL,6.957,0.799,5.363,33.748,0.029,0.277,0.0,0.0,0.0,Snap share 29% | Carry share 32% | Team total 29.5 | QB playing well,
-2026,10,12542,00-0040563,Efton Chism III,WR,NE,DET,6.928,2.545,33.328,0.355,0.247,0.005,0.0,0.0,0.0,Snap share 56% | Target share 11% | Team total 24.5 | QB playing well,
+2026,10,10866,00-0038579,Aidan O'Connell,QB,LV,SEA,6.922,0.029,0.096,7.05,0.014,0.056,196.892,0.758,1.161,Snap share 76% | Team total 17.0 | Few starts this season,
 2026,10,12509,00-0040727,Tre Harris,WR,LAC,BAL,6.907,2.794,35.079,0.408,0.143,0.005,0.0,0.0,0.0,Snap share 67% | Target share 16% | Team total 17.0 | QB playing poorly,
-2026,10,12482,00-0040009,Savion Williams,WR,GB,MIN,6.822,2.115,18.905,6.497,0.131,0.055,0.0,0.0,0.0,Snap share 37% | Target share 7% | Team total 22.5 | QB playing well,
+2026,10,8172,00-0037252,Greg Dulcich,TE,MIA,IND,6.822,3.005,32.213,0.166,0.144,0.01,0.0,0.0,0.0,Snap share 62% | Target share 17% | Team total 17.5 | Different QB this week,
+2026,10,12482,00-0040009,Savion Williams,WR,GB,MIN,6.822,2.115,19.052,7.116,0.131,0.055,0.0,0.0,0.0,Snap share 37% | Target share 7% | Team total 22.8 | QB playing well,"This week: Groin, limited participation"
 2026,10,12502,00-0040584,Gunnar Helm,TE,TEN,JAX,6.629,2.862,26.253,0.149,0.143,0.005,0.0,0.0,0.0,Snap share 72% | Target share 12% | Team total 18.0,
-2026,10,3161,00-0032950,Carson Wentz,QB,MIN,GB,6.551,0.024,0.286,4.736,0.014,0.029,211.541,1.43,0.627,Snap share 64% | Team total 19.0,
+2026,10,3161,00-0032950,Carson Wentz,QB,MIN,GB,6.551,0.024,0.305,4.736,0.014,0.029,210.892,1.449,0.617,Snap share 64% | Team total 19.8,"This week: Ankle, limited participation"
 2026,10,11647,00-0039391,Kimani Vidal,RB,LAC,BAL,6.533,1.77,11.856,19.703,0.053,0.139,0.0,0.0,0.0,Snap share 38% | Carry share 23% | Team total 17.0 | QB playing poorly,
+2026,10,3155,00-0032951,Laquon Treadwell,WR,IND,MIA,6.493,2.105,28.632,0.255,0.112,0.005,0.0,0.0,0.0,Snap share 69% | Target share 8% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,
 2026,10,12499,00-0040170,Elic Ayomanor,WR,TEN,JAX,6.488,2.235,28.412,0.326,0.151,0.005,0.0,0.0,0.0,Snap share 69% | Target share 13% | Team total 18.0,
 2026,10,7694,00-0037005,Tommy Tremble,TE,CAR,NO,6.431,2.679,21.659,0.047,0.175,0.005,0.0,0.0,0.0,Snap share 60% | Target share 10% | Team total 23.0,
 2026,10,4147,00-0033526,Samaje Perine,RB,CIN,PIT,6.367,0.982,5.644,24.328,0.025,0.274,0.0,0.0,0.0,Snap share 36% | Carry share 29% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
-2026,10,8180,00-0037291,Jalen Nailor,WR,LV,SEA,6.288,1.986,25.236,0.297,0.158,0.005,0.0,0.0,0.0,Snap share 60% | Target share 11% | Team total 17.0,
+2026,10,13424,00-0041125,Seth McGowan,RB,IND,MIA,6.314,0.936,4.747,30.223,0.023,0.196,0.0,0.0,0.0,Snap share 26% | Carry share 21% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,
 2026,10,3286,00-0032775,Demarcus Robinson,WR,SF,DAL,6.271,1.954,28.391,0.241,0.192,0.005,0.0,0.0,0.0,Snap share 50% | Target share 11% | Team total 29.5 | QB playing well,"Ankle, hurt Week 9"
-2026,10,8135,00-0037742,Treylon Burks,WR,WAS,NYG,6.208,2.09,30.629,0.313,0.174,0.007,0.0,0.0,0.0,Snap share 59% | Target share 14% | Team total 19.5 | 9% of targets open with teammates out | First game back,"This week: Foot, limited participation | Foot, hurt Week 8 and Week 9"
-2026,10,5892,00-0035685,David Montgomery,RB,HOU,CLE,6.116,0.82,5.626,29.651,0.039,0.473,0.0,0.0,0.0,Snap share 40% | Carry share 39% | Team total 22.0 | QB playing well | 13% of targets open with teammates out | 24% of carries open | First game back,"Groin, hurt Week 9 | Snaps 56% and 14% the last 2 games (usual 52%)"
+2026,10,8135,00-0037742,Treylon Burks,WR,WAS,NYG,6.208,2.103,30.587,0.313,0.173,0.007,0.0,0.0,0.0,Snap share 59% | Target share 14% | Team total 19.0 | 10% of targets open with teammates out | First game back,"This week: Foot, did not participate in practice | Foot, hurt Week 8 and Week 9"
+2026,10,8180,00-0037291,Jalen Nailor,WR,LV,SEA,6.119,1.953,24.527,0.328,0.143,0.005,0.0,0.0,0.0,Snap share 60% | Target share 11% | Team total 17.0 | Different QB this week,
+2026,10,5892,00-0035685,David Montgomery,RB,HOU,CLE,6.039,0.825,5.689,29.471,0.039,0.461,0.0,0.0,0.0,Snap share 40% | Carry share 39% | Team total 23.0 | QB playing well | 13% of targets open with teammates out | 24% of carries open | First game back,"This week: Groin, did not participate in practice | Groin, hurt Week 9 | Snaps 56% and 14% the last 2 games (usual 52%)"
 2026,10,13264,00-0040785,Dohnte Meyers,WR,CIN,PIT,5.999,2.286,22.579,1.385,0.115,0.012,0.0,0.0,0.0,Snap share 46% | Target share 9% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
 2026,10,13350,00-0040981,Joe Fagnano,QB,BAL,LAC,5.883,0.052,0.313,6.758,0.014,0.038,149.806,0.878,0.563,Snap share 62% | Team total 21.5,
-2026,10,13424,00-0041125,Seth McGowan,RB,IND,MIA,5.867,0.797,4.176,29.837,0.023,0.18,0.0,0.0,0.0,Snap share 26% | Carry share 21% | Team total 21.0 | QB playing poorly,
 2026,10,11435,00-0038797,Emanuel Wilson,RB,SEA,LV,5.857,0.687,5.381,26.181,0.026,0.167,0.0,0.0,0.0,Snap share 37% | Carry share 33% | Team total 23.5,
 2026,10,5012,00-0034753,Mark Andrews,TE,BAL,LAC,5.838,2.575,22.813,1.413,0.139,0.015,0.0,0.0,0.0,Snap share 60% | Target share 16% | Team total 21.5 | QB playing poorly,
 2026,10,8676,00-0037545,Rashid Shaheed,WR,SEA,LV,5.788,1.913,27.314,1.305,0.158,0.022,0.0,0.0,0.0,Snap share 47% | Target share 14% | Team total 23.5 | First game back,"Knee, hurt Week 8 and Week 9"
 2026,10,13330,00-0041032,Kenyon Sadiq,TE,NYJ,BUF,5.776,2.231,22.809,0.175,0.126,0.009,0.0,0.0,0.0,Snap share 46% | Target share 11% | Team total 21.0,
-2026,10,13311,00-0041525,Chris Bell,WR,MIA,IND,5.672,1.994,23.495,0.833,0.119,0.007,0.0,0.0,0.0,Snap share 63% | Target share 12% | Team total 17.5,
-2026,10,6783,00-0036407,Jerry Jeudy,WR,CLE,HOU,5.619,1.767,19.352,0.236,0.114,0.005,0.0,0.0,0.0,Snap share 65% | Target share 12% | Team total 17.5 | QB playing poorly,
+2026,10,6783,00-0036407,Jerry Jeudy,WR,CLE,HOU,5.662,1.811,19.894,0.236,0.117,0.005,0.0,0.0,0.0,Snap share 65% | Target share 12% | Team total 18.5 | QB playing poorly,
+2026,10,12547,00-0040131,Kyle Williams,WR,NE,DET,5.531,1.532,21.544,0.34,0.176,0.005,0.0,0.0,0.0,Snap share 52% | Target share 6% | Team total 24.5 | QB playing well | 8% of targets open with teammates out,
 2026,10,12540,00-0040705,Chimere Dike,WR,TEN,JAX,5.526,2.007,21.286,0.644,0.102,0.011,0.0,0.0,0.0,Snap share 37% | Target share 7% | Team total 18.0,
 2026,10,13299,00-0041503,Nate Boerkircher,TE,JAX,TEN,5.44,1.709,22.174,0.181,0.175,0.005,0.0,0.0,0.0,Snap share 50% | Target share 7% | Team total 28.5 | QB playing well,
 2026,10,7571,00-0036550,Rashod Bateman,WR,BAL,LAC,5.363,1.662,23.743,0.236,0.138,0.005,0.0,0.0,0.0,Snap share 67% | Target share 12% | Team total 21.5 | QB playing poorly,
 2026,10,12493,00-0040189,Oronde Gadsden II,TE,LAC,BAL,5.335,2.465,26.194,0.149,0.138,0.005,0.0,0.0,0.0,Snap share 51% | Target share 13% | Team total 17.0 | QB playing poorly,
-2026,10,12547,00-0040131,Kyle Williams,WR,NE,DET,5.29,1.516,21.63,0.34,0.176,0.005,0.0,0.0,0.0,Snap share 52% | Target share 6% | Team total 24.5 | QB playing well,
+2026,10,13311,00-0041525,Chris Bell,WR,MIA,IND,5.318,1.891,21.222,0.869,0.105,0.007,0.0,0.0,0.0,Snap share 63% | Target share 12% | Team total 17.5 | Different QB this week,"This week: Knee, limited participation"
 2026,10,5906,00-0035689,Dawson Knox,TE,BUF,NYJ,5.288,2.13,23.983,0.047,0.222,0.005,0.0,0.0,0.0,Snap share 67% | Target share 10% | Team total 29.5 | QB playing well,
 2026,10,9511,00-0038454,Keaton Mitchell,RB,LAC,BAL,5.248,1.832,13.448,20.735,0.055,0.131,0.0,0.0,0.0,Snap share 28% | Target share 10% | Carry share 19% | Team total 17.0 | QB playing poorly,
-2026,10,6853,00-0036415,Van Jefferson,WR,WAS,NYG,5.243,1.673,19.539,0.241,0.129,0.005,0.0,0.0,0.0,Snap share 46% | Target share 11% | Team total 19.5 | 9% of targets open with teammates out,
+2026,10,6853,00-0036415,Van Jefferson,WR,WAS,NYG,5.243,1.67,19.497,0.241,0.127,0.005,0.0,0.0,0.0,Snap share 46% | Target share 11% | Team total 19.0 | 10% of targets open with teammates out,
+2026,10,13305,00-0040878,Mike Washington Jr.,RB,LV,SEA,5.191,0.466,2.049,38.52,0.019,0.178,0.0,0.0,0.0,Snap share 32% | Carry share 41% | Team total 17.0 | Different QB this week,
 2026,10,11593,00-0039530,Brevyn Spann-Ford,TE,DAL,SF,5.153,2.133,20.779,0.11,0.166,0.005,0.0,0.0,0.0,Snap share 54% | Target share 8% | Team total 26.0 | QB playing well,
 2026,10,13281,00-0041029,Jordyn Tyson,WR,NO,CAR,5.126,2.391,29.632,0.374,0.197,0.005,0.0,0.0,0.0,Snap share 24% | Target share 16% | Team total 25.5 | 10% of targets open with teammates out,"Hamstring, hurt Week 9"
-2026,10,11628,00-0039849,Marvin Harrison Jr.,WR,HOU,CLE,5.121,1.688,25.859,0.309,0.191,0.005,0.0,0.0,0.0,Snap share 50% | Target share 11% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,Snaps 21% and 46% the last 2 games (usual 74%)
+2026,10,11628,00-0039849,Marvin Harrison Jr.,WR,HOU,CLE,5.121,1.798,25.922,0.309,0.191,0.005,0.0,0.0,0.0,Snap share 50% | Target share 11% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,"This week: Hamstring, limited participation | Snaps 21% and 46% the last 2 games (usual 74%)"
 2026,10,2197,00-0031236,Brandin Cooks,WR,SF,DAL,4.963,1.401,19.1,0.241,0.126,0.005,0.0,0.0,0.0,Snap share 46% | Target share 8% | Team total 29.5 | QB playing well,
-2026,10,11199,00-0038705,Emari Demercado,RB,HOU,CLE,4.939,0.932,6.656,21.478,0.036,0.106,0.0,0.0,0.0,Snap share 23% | Carry share 19% | Team total 22.0 | QB playing well | 13% of targets open with teammates out | 24% of carries open,
-2026,10,13305,00-0040878,Mike Washington Jr.,RB,LV,SEA,4.866,0.466,2.049,34.427,0.019,0.169,0.0,0.0,0.0,Snap share 32% | Carry share 41% | Team total 17.0,
+2026,10,11199,00-0038705,Emari Demercado,RB,HOU,CLE,4.939,0.933,6.757,21.298,0.036,0.12,0.0,0.0,0.0,Snap share 23% | Carry share 19% | Team total 23.0 | QB playing well | 13% of targets open with teammates out | 24% of carries open,
 2026,10,12497,00-0040648,Tory Horton,WR,SEA,LV,4.86,1.61,23.569,0.374,0.15,0.005,0.0,0.0,0.0,Snap share 47% | Target share 9% | Team total 23.5,
 2026,10,6039,00-0035537,Ty Johnson,RB,BUF,NYJ,4.845,1.722,15.858,8.21,0.087,0.076,0.0,0.0,0.0,Snap share 25% | Target share 9% | Carry share 7% | Team total 29.5 | QB playing well,
 2026,10,8127,00-0038046,Charlie Kolar,TE,LAC,BAL,4.787,2.035,23.74,0.452,0.108,0.01,0.0,0.0,0.0,Snap share 58% | Target share 10% | Team total 17.0 | QB playing poorly,
-2026,10,11581,00-0039811,MarShawn Lloyd,RB,GB,MIN,4.724,1.111,7.483,16.784,0.041,0.135,0.0,0.0,0.0,Snap share 33% | Carry share 30% | Team total 22.5 | QB playing well | First game back,"Knee, hurt Week 9 | Snaps 36% and 16% the last 2 games (usual 42%)"
-2026,10,9508,00-0039032,Tyjae Spears,RB,TEN,JAX,4.719,1.912,14.741,9.289,0.07,0.088,0.0,0.0,0.0,Snap share 41% | Target share 11% | Carry share 14% | Team total 18.0 | First game back,"Knee, hurt Week 8"
-2026,10,3155,00-0032951,Laquon Treadwell,WR,IND,MIA,4.698,1.566,20.976,0.255,0.123,0.005,0.0,0.0,0.0,Snap share 69% | Target share 8% | Team total 21.0 | QB playing poorly,
-2026,10,7090,00-0036309,Darnell Mooney,WR,NYG,WAS,4.685,2.041,21.008,2.384,0.154,0.014,0.0,0.0,0.0,Snap share 58% | Target share 12% | Team total 22.0,
-2026,10,12504,00-0040142,Kaleb Johnson,RB,GB,MIN,4.675,0.335,1.692,19.353,0.014,0.174,0.0,0.0,0.0,Snap share 21% | Carry share 25% | Team total 22.5 | QB playing well,
-2026,10,12529,00-0040734,TreVeyon Henderson,RB,NE,DET,4.611,1.007,7.305,21.01,0.036,0.151,0.0,0.0,0.0,Snap share 33% | Carry share 31% | Team total 24.5 | QB playing well | First game back,"Illness, hurt Week 8 and Week 9"
-2026,10,8207,00-0037120,Tyler Goodson,RB,DAL,SF,4.538,0.934,6.164,19.144,0.034,0.136,0.0,0.0,0.0,Snap share 18% | Carry share 18% | Team total 26.0 | QB playing well,
-2026,10,12491,00-0040556,Corey Kiner,RB,NE,DET,4.507,0.289,2.316,26.679,0.015,0.201,0.0,0.0,0.0,Snap share 15% | Carry share 26% | Team total 24.5 | QB playing well,
+2026,10,11581,00-0039811,MarShawn Lloyd,RB,GB,MIN,4.724,1.111,7.582,16.784,0.041,0.136,0.0,0.0,0.0,Snap share 33% | Carry share 30% | Team total 22.8 | QB playing well | First game back,"Knee, hurt Week 9 | Snaps 36% and 16% the last 2 games (usual 42%)"
+2026,10,9508,00-0039032,Tyjae Spears,RB,TEN,JAX,4.719,1.912,14.741,9.289,0.07,0.088,0.0,0.0,0.0,Snap share 41% | Target share 11% | Carry share 14% | Team total 18.0 | First game back,"This week: Knee, did not participate in practice | Knee, hurt Week 8"
+2026,10,7090,00-0036309,Darnell Mooney,WR,NYG,WAS,4.685,1.987,20.967,2.384,0.154,0.014,0.0,0.0,0.0,Snap share 58% | Target share 12% | Team total 21.5,
+2026,10,12504,00-0040142,Kaleb Johnson,RB,GB,MIN,4.61,0.335,1.723,19.353,0.014,0.175,0.0,0.0,0.0,Snap share 21% | Carry share 25% | Team total 22.8 | QB playing well,
+2026,10,8122,00-0037157,Bam Knight,RB,ARI,LA,4.604,1.354,10.504,18.931,0.05,0.103,0.0,0.0,0.0,Snap share 26% | Carry share 19% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out | 53% of carries open | First game back,"This week: Concussion, limited participation | Concussion, hurt Week 9"
+2026,10,8207,00-0037120,Tyler Goodson,RB,DAL,SF,4.538,0.934,6.164,19.144,0.034,0.136,0.0,0.0,0.0,Snap share 18% | Carry share 18% | Team total 26.0 | QB playing well,"This week: Ankle, did not participate in practice"
+2026,10,10231,00-0039041,Elijah Higgins,TE,ARI,LA,4.525,1.976,17.992,0.0,0.092,0.005,0.0,0.0,0.0,Snap share 47% | Target share 7% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out,
+2026,10,12491,00-0040556,Corey Kiner,RB,NE,DET,4.519,0.305,2.454,28.278,0.015,0.229,0.0,0.0,0.0,Snap share 15% | Carry share 26% | Team total 24.5 | QB playing well | 8% of targets open with teammates out | 19% of carries open,
 2026,10,11635,00-0039915,Ladd McConkey,WR,LAC,BAL,4.408,1.737,20.82,0.29,0.115,0.005,0.0,0.0,0.0,Snap share 55% | Target share 9% | Team total 17.0 | QB playing poorly,Snaps 12% and 90% the last 2 games (usual 48%)
-2026,10,7828,00-0036637,Noah Gray,TE,KC,ATL,4.337,1.71,16.676,0.047,0.135,0.005,0.0,0.0,0.0,Snap share 57% | Target share 7% | Team total 24.5 | QB playing well,
+2026,10,7828,00-0036637,Noah Gray,TE,KC,ATL,4.341,1.71,16.805,0.047,0.135,0.005,0.0,0.0,0.0,Snap share 57% | Target share 7% | Team total 24.8 | QB playing well,
 2026,10,12860,00-0040311,Theo Wease Jr.,WR,LAC,BAL,4.243,1.745,22.809,0.35,0.107,0.005,0.0,0.0,0.0,Snap share 44% | Target share 10% | Team total 17.0 | QB playing poorly | First game back,
 2026,10,8147,00-0037614,John Metchie III,WR,CAR,NO,4.167,1.521,16.864,0.309,0.097,0.005,0.0,0.0,0.0,Snap share 44% | Target share 10% | Team total 23.0,
-2026,10,8116,00-0038098,Pierre Strong,RB,GB,MIN,4.158,1.211,8.795,13.338,0.048,0.108,0.0,0.0,0.0,Snap share 30% | Carry share 14% | Team total 22.5 | QB playing well,Snaps 13% and 45% the last 2 games (usual 41%)
-2026,10,7049,00-0036259,Jauan Jennings,WR,MIN,GB,4.067,1.824,19.384,0.236,0.111,0.005,0.0,0.0,0.0,Snap share 70% | Target share 10% | Team total 19.0 | QB playing poorly | First game back,"Calf, hurt Week 9"
-2026,10,10231,00-0039041,Elijah Higgins,TE,ARI,LA,4.033,1.701,15.922,0.0,0.1,0.005,0.0,0.0,0.0,Snap share 47% | Target share 7% | Team total 15.0 | 25% of targets open with teammates out,
+2026,10,8116,00-0038098,Pierre Strong,RB,GB,MIN,4.158,1.211,8.894,13.338,0.048,0.108,0.0,0.0,0.0,Snap share 30% | Carry share 14% | Team total 22.8 | QB playing well,Snaps 13% and 45% the last 2 games (usual 41%)
+2026,10,7049,00-0036259,Jauan Jennings,WR,MIN,GB,4.124,1.824,19.192,0.236,0.117,0.005,0.0,0.0,0.0,Snap share 70% | Target share 10% | Team total 19.8 | QB playing poorly | First game back,"This week: Calf, did not participate in practice | Calf, hurt Week 9"
 2026,10,13293,00-0040870,Ja'Kobi Lane,WR,BAL,LAC,4.004,1.68,17.297,0.355,0.099,0.005,0.0,0.0,0.0,Snap share 59% | Target share 8% | Team total 21.5 | QB playing poorly,
 2026,10,11631,00-0039893,Brian Thomas Jr.,WR,JAX,TEN,3.978,1.231,14.971,0.453,0.114,0.005,0.0,0.0,0.0,Snap share 47% | Target share 10% | Team total 28.5 | QB playing well,
-2026,10,8122,00-0037157,Bam Knight,RB,ARI,LA,3.967,1.233,10.069,15.386,0.05,0.1,0.0,0.0,0.0,Snap share 26% | Carry share 19% | Team total 15.0 | 25% of targets open with teammates out | 49% of carries open | First game back,"Concussion, hurt Week 9"
-2026,10,13338,00-0041529,Kevin Coleman Jr.,WR,MIA,IND,3.963,1.368,13.702,1.304,0.075,0.013,0.0,0.0,0.0,Snap share 34% | Target share 9% | Team total 17.5,Snaps 26% and 19% the last 2 games (usual 48%)
 2026,10,12535,00-0040669,Isaac TeSlaa,WR,DET,NE,3.905,1.348,20.159,0.326,0.154,0.005,0.0,0.0,0.0,Snap share 52% | Target share 7% | Team total 27.0 | QB playing well,
 2026,10,13420,00-0041067,Bryce Lance,WR,NO,CAR,3.865,1.322,18.98,0.4,0.114,0.005,0.0,0.0,0.0,Snap share 63% | Target share 8% | Team total 25.5 | 10% of targets open with teammates out,
+2026,10,13338,00-0041529,Kevin Coleman Jr.,WR,MIA,IND,3.862,1.372,12.711,1.335,0.073,0.013,0.0,0.0,0.0,Snap share 34% | Target share 9% | Team total 17.5 | Different QB this week,Snaps 26% and 19% the last 2 games (usual 48%)
 2026,10,4981,00-0034837,Calvin Ridley,WR,TEN,JAX,3.859,1.348,19.511,0.451,0.12,0.007,0.0,0.0,0.0,Snap share 53% | Target share 9% | Team total 18.0,"Hip, hurt Week 8"
+2026,10,6427,00-0035021,Ashton Dulin,WR,IND,MIA,3.769,1.241,16.069,2.053,0.07,0.018,0.0,0.0,0.0,Snap share 22% | Target share 5% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,
 2026,10,7607,00-0036924,Michael Carter,RB,TEN,JAX,3.724,1.003,8.07,9.935,0.04,0.085,0.0,0.0,0.0,Snap share 33% | Carry share 22% | Team total 18.0,
-2026,10,10214,00-0039074,Davis Allen,TE,LA,ARI,3.549,1.42,13.121,0.182,0.119,0.005,0.0,0.0,0.0,Snap share 55% | Target share 5% | Team total 24.5 | 12% of targets open with teammates out,
-2026,10,5857,00-0035644,Noah Fant,TE,NO,CAR,3.431,1.471,13.539,0.047,0.094,0.005,0.0,0.0,0.0,Snap share 48% | Target share 6% | Team total 25.5 | 10% of targets open with teammates out,
-2026,10,11729,00-0039364,Sione Vaki,RB,DET,NE,3.425,0.808,7.174,14.181,0.063,0.086,0.0,0.0,0.0,Snap share 22% | Carry share 11% | Team total 27.0 | QB playing well,"Ankle, hurt Week 9"
-2026,10,6271,00-0035208,Olamide Zaccheaus,WR,ATL,KC,3.389,1.382,17.159,0.288,0.085,0.005,0.0,0.0,0.0,Snap share 46% | Target share 8% | Team total 21.0,"Shoulder, hurt Week 8"
-2026,10,12718,00-0040590,Konata Mumpfield,WR,LA,ARI,3.388,1.18,13.871,0.359,0.105,0.005,0.0,0.0,0.0,Snap share 43% | Target share 7% | Team total 24.5 | 12% of targets open with teammates out,
+2026,10,13297,00-0041070,Reggie Virgil,WR,ARI,LA,3.643,1.228,16.469,0.387,0.079,0.005,0.0,0.0,0.0,Snap share 25% | Target share 7% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out,
+2026,10,13333,00-0041132,Deion Burks,WR,IND,MIA,3.642,1.281,15.272,0.797,0.059,0.006,0.0,0.0,0.0,Snap share 20% | Target share 4% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,
+2026,10,10214,00-0039074,Davis Allen,TE,LA,ARI,3.549,1.42,13.144,0.182,0.119,0.005,0.0,0.0,0.0,Snap share 55% | Target share 5% | Team total 24.5 | 14% of targets open with teammates out,"This week: Oblique, limited participation"
+2026,10,5857,00-0035644,Noah Fant,TE,NO,CAR,3.431,1.471,13.539,0.047,0.094,0.005,0.0,0.0,0.0,Snap share 48% | Target share 6% | Team total 25.5 | 10% of targets open with teammates out,"This week: Back, limited participation"
+2026,10,11729,00-0039364,Sione Vaki,RB,DET,NE,3.425,0.808,7.174,14.181,0.063,0.086,0.0,0.0,0.0,Snap share 22% | Carry share 11% | Team total 27.0 | QB playing well,"This week: Ankle, did not participate in practice | Ankle, hurt Week 9"
+2026,10,6271,00-0035208,Olamide Zaccheaus,WR,ATL,KC,3.393,1.382,17.271,0.288,0.085,0.005,0.0,0.0,0.0,Snap share 46% | Target share 8% | Team total 21.8,"Shoulder, hurt Week 8"
+2026,10,12718,00-0040590,Konata Mumpfield,WR,LA,ARI,3.388,1.18,13.924,0.359,0.105,0.005,0.0,0.0,0.0,Snap share 43% | Target share 7% | Team total 24.5 | 14% of targets open with teammates out,
 2026,10,11608,00-0039451,Isaiah Williams,WR,NYJ,BUF,3.38,1.067,11.089,1.802,0.065,0.011,0.0,0.0,0.0,Snap share 47% | Target share 5% | Team total 21.0,Snaps 16% and 60% the last 2 games (usual 61%)
+2026,10,7562,00-0036849,Tutu Atwell,WR,LA,ARI,3.377,1.369,16.327,0.241,0.12,0.005,0.0,0.0,0.0,Snap share 33% | Target share 7% | Team total 24.5 | 14% of targets open with teammates out,
+2026,10,,00-0041376,Gregory Desrosiers,RB,NYG,WAS,3.376,0.237,1.555,18.263,0.014,0.062,0.0,0.0,0.0,Snap share 48% | Carry share 10% | Team total 21.5 | 46% of carries open,
 2026,10,12530,00-0040718,Travis Hunter,WR,JAX,TEN,3.356,1.044,12.476,0.746,0.085,0.006,0.0,0.0,0.0,Snap share 17% | Target share 6% | Team total 28.5 | QB playing well,
-2026,10,7562,00-0036849,Tutu Atwell,WR,LA,ARI,3.34,1.369,16.275,0.241,0.12,0.005,0.0,0.0,0.0,Snap share 33% | Target share 7% | Team total 24.5 | 12% of targets open with teammates out,
 2026,10,12670,00-0040184,KeAndre Lambert-Smith,WR,LAC,BAL,3.338,1.235,15.294,0.355,0.088,0.005,0.0,0.0,0.0,Snap share 32% | Target share 8% | Team total 17.0 | QB playing poorly,Snaps 3% and 56% the last 2 games (usual 44%)
 2026,10,1379,00-0029892,Kyle Juszczyk,RB,SF,DAL,3.303,1.214,11.744,0.554,0.127,0.036,0.0,0.0,0.0,Snap share 50% | Carry share 1% | Team total 29.5 | QB playing well,
 2026,10,11575,00-0039875,Ray Davis,RB,BUF,NYJ,3.258,0.63,5.396,11.668,0.041,0.064,0.0,0.0,0.0,Snap share 15% | Carry share 8% | Team total 29.5 | QB playing well,
-2026,10,,00-0041376,Gregory Desrosiers,RB,NYG,WAS,3.25,0.267,1.596,18.083,0.014,0.062,0.0,0.0,0.0,Snap share 48% | Carry share 10% | Team total 22.0 | 46% of carries open,
-2026,10,7608,00-0036906,Khalil Herbert,RB,ATL,KC,3.202,1.047,8.94,11.429,0.039,0.079,0.0,0.0,0.0,Snap share 21% | Carry share 13% | Team total 21.0 | 17% of carries open,
-2026,10,13277,00-0041326,CJ Donaldson,RB,NO,CAR,3.109,0.639,3.593,15.613,0.019,0.089,0.0,0.0,0.0,Snap share 25% | Carry share 10% | Team total 25.5 | 10% of targets open with teammates out | 54% of carries open | First game back,"Shoulder, hurt Week 9"
-2026,10,6427,00-0035021,Ashton Dulin,WR,IND,MIA,3.075,0.983,10.408,2.053,0.07,0.018,0.0,0.0,0.0,Snap share 22% | Target share 5% | Team total 21.0 | QB playing poorly,
+2026,10,7608,00-0036906,Khalil Herbert,RB,ATL,KC,3.19,1.047,9.226,11.429,0.039,0.079,0.0,0.0,0.0,Snap share 21% | Carry share 13% | Team total 21.8 | 17% of carries open,
+2026,10,8227,00-0037277,Teagan Quitoriano,TE,ARI,LA,3.156,0.55,4.611,0.144,0.031,0.005,0.0,0.0,0.0,Snap share 29% | Target share 1% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out,
+2026,10,13277,00-0041326,CJ Donaldson,RB,NO,CAR,3.109,0.639,3.593,15.613,0.019,0.089,0.0,0.0,0.0,Snap share 25% | Carry share 10% | Team total 25.5 | 10% of targets open with teammates out | 54% of carries open | First game back,"This week: Shoulder, did not participate in practice | Shoulder, hurt Week 9"
 2026,10,12473,00-0040187,Mitchell Evans,TE,CAR,NO,3.038,1.23,11.856,0.156,0.08,0.005,0.0,0.0,0.0,Snap share 45% | Target share 5% | Team total 23.0,
 2026,10,8225,00-0038115,Daniel Bellinger,TE,TEN,JAX,2.861,1.1,14.341,0.045,0.09,0.005,0.0,0.0,0.0,Snap share 47% | Target share 7% | Team total 18.0,
-2026,10,13297,00-0041070,Reggie Virgil,WR,ARI,LA,2.778,1.059,14.635,0.355,0.1,0.005,0.0,0.0,0.0,Snap share 25% | Target share 7% | Team total 15.0 | 25% of targets open with teammates out,
 2026,10,11616,00-0039365,Jacob Cowing,WR,SF,DAL,2.739,1.004,14.026,0.714,0.078,0.007,0.0,0.0,0.0,Snap share 30% | Target share 5% | Team total 29.5 | QB playing well,
-2026,10,8110,00-0038041,Jake Ferguson,TE,DAL,SF,2.723,1.376,13.083,0.042,0.115,0.005,0.0,0.0,0.0,Snap share 48% | Target share 7% | Team total 26.0 | QB playing well,"Ankle, hurt Week 9 | Snaps 5% and 34% the last 2 games (usual 69%)"
-2026,10,12505,00-0040646,Jalen Royals,WR,KC,ATL,2.717,0.947,11.746,0.345,0.091,0.005,0.0,0.0,0.0,Snap share 40% | Target share 6% | Team total 24.5 | QB playing well,
-2026,10,7075,00-0036429,Charlie Woerner,TE,ATL,KC,2.632,0.994,9.202,1.055,0.066,0.015,0.0,0.0,0.0,Snap share 53% | Target share 4% | Team total 21.0,
-2026,10,11643,00-0039874,Jaylen Wright,RB,MIA,IND,2.585,0.477,3.919,12.726,0.027,0.121,0.0,0.0,0.0,Snap share 17% | Carry share 17% | Team total 17.5 | First game back,"Quadricep, hurt Week 9"
+2026,10,8110,00-0038041,Jake Ferguson,TE,DAL,SF,2.723,1.376,13.083,0.042,0.115,0.005,0.0,0.0,0.0,Snap share 48% | Target share 7% | Team total 26.0 | QB playing well,"This week: Knee, did not participate in practice | Ankle, hurt Week 9 | Snaps 5% and 34% the last 2 games (usual 69%)"
+2026,10,12505,00-0040646,Jalen Royals,WR,KC,ATL,2.717,0.947,11.787,0.345,0.091,0.005,0.0,0.0,0.0,Snap share 40% | Target share 6% | Team total 24.8 | QB playing well,
+2026,10,7075,00-0036429,Charlie Woerner,TE,ATL,KC,2.632,0.994,9.29,1.055,0.066,0.015,0.0,0.0,0.0,Snap share 53% | Target share 4% | Team total 21.8,
+2026,10,12471,00-0040179,DJ Giddens,RB,IND,MIA,2.626,0.337,1.681,8.526,0.014,0.063,0.0,0.0,0.0,Snap share 32% | Carry share 7% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,
 2026,10,13394,00-0041100,Josh Cameron,WR,JAX,TEN,2.512,0.958,12.496,0.374,0.107,0.005,0.0,0.0,0.0,Snap share 42% | Target share 6% | Team total 28.5 | QB playing well,
+2026,10,11643,00-0039874,Jaylen Wright,RB,MIA,IND,2.51,0.476,3.919,13.005,0.027,0.122,0.0,0.0,0.0,Snap share 17% | Carry share 17% | Team total 17.5 | Different QB this week | First game back,"Quadricep, hurt Week 9"
 2026,10,,00-0040879,Matthew Hibner,TE,BAL,LAC,2.467,0.929,12.391,0.162,0.089,0.005,0.0,0.0,0.0,Snap share 45% | Target share 5% | Team total 21.5 | QB playing poorly,
-2026,10,11597,00-0039847,Theo Johnson,TE,NYG,WAS,2.46,1.026,11.519,0.115,0.091,0.005,0.0,0.0,0.0,Snap share 45% | Target share 7% | Team total 22.0,
+2026,10,11597,00-0039847,Theo Johnson,TE,NYG,WAS,2.46,1.02,11.478,0.115,0.091,0.005,0.0,0.0,0.0,Snap share 45% | Target share 7% | Team total 21.5,
 2026,10,12048,00-0039299,George Holani,RB,SEA,LV,2.441,0.633,5.166,9.424,0.034,0.062,0.0,0.0,0.0,Snap share 25% | Carry share 10% | Team total 23.5,
+2026,10,11439,00-0038794,Jaleel McLaughlin,RB,CLE,HOU,2.419,0.579,3.891,9.716,0.026,0.054,0.0,0.0,0.0,Snap share 23% | Carry share 7% | Team total 18.5 | QB playing poorly | 31% of carries open,
 2026,10,6001,00-0035631,Drew Sample,TE,CIN,PIT,2.41,0.578,5.342,0.028,0.045,0.005,0.0,0.0,0.0,Snap share 53% | Target share 3% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
-2026,10,11439,00-0038794,Jaleel McLaughlin,RB,CLE,HOU,2.404,0.563,3.85,9.716,0.026,0.054,0.0,0.0,0.0,Snap share 23% | Carry share 7% | Team total 17.5 | QB playing poorly | 31% of carries open,
+2026,10,6847,00-0036331,Devin Duvernay,WR,ARI,LA,2.407,1.164,11.408,0.267,0.051,0.005,0.0,0.0,0.0,Snap share 17% | Target share 2% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out,
 2026,10,13273,00-0040887,Josh Cuevas,TE,BAL,LAC,2.375,0.882,9.357,0.175,0.07,0.005,0.0,0.0,0.0,Snap share 23% | Target share 6% | Team total 21.5 | QB playing poorly,
+2026,10,7812,00-0036646,Simi Fehoko,WR,ARI,LA,2.331,0.763,9.779,0.335,0.04,0.005,0.0,0.0,0.0,Snap share 23% | Target share 1% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out,
 2026,10,11068,00-0038839,Mitchell Tinsley,WR,CIN,PIT,2.317,0.799,9.04,0.326,0.072,0.005,0.0,0.0,0.0,Snap share 29% | Target share 4% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
 2026,10,2359,00-0032104,Ameer Abdullah,RB,JAX,TEN,2.255,0.384,2.625,17.076,0.017,0.076,0.0,0.0,0.0,Snap share 9% | Carry share 11% | Team total 28.5 | QB playing well,
 2026,10,7891,00-0036754,Brock Wright,TE,DET,NE,2.195,0.576,5.39,0.028,0.049,0.005,0.0,0.0,0.0,Snap share 60% | Target share 2% | Team total 27.0 | QB playing well,
-2026,10,12471,00-0040179,DJ Giddens,RB,IND,MIA,2.186,0.257,1.517,8.276,0.014,0.063,0.0,0.0,0.0,Snap share 32% | Carry share 7% | Team total 21.0 | QB playing poorly,
 2026,10,11571,00-0039798,Isaiah Davis,RB,NYJ,BUF,2.18,0.443,3.972,10.599,0.034,0.06,0.0,0.0,0.0,Snap share 12% | Carry share 9% | Team total 21.0,
-2026,10,13333,00-0041132,Deion Burks,WR,IND,MIA,2.162,0.791,8.662,0.797,0.059,0.006,0.0,0.0,0.0,Snap share 20% | Target share 4% | Team total 21.0 | QB playing poorly,
-2026,10,11599,00-0039359,Cade Stover,TE,HOU,CLE,2.161,0.696,5.517,2.311,0.045,0.019,0.0,0.0,0.0,Snap share 31% | Target share 3% | Team total 22.0 | QB playing well | 13% of targets open with teammates out | First game back,
-2026,10,13320,00-0041044,Zachariah Branch,WR,ATL,KC,2.127,0.708,8.332,0.521,0.06,0.007,0.0,0.0,0.0,Snap share 23% | Target share 5% | Team total 21.0 | First game back,"Hamstring, hurt Week 9"
-2026,10,6828,00-0036265,AJ Dillon,RB,CAR,NO,2.092,0.525,4.271,14.653,0.031,0.102,0.0,0.0,0.0,Snap share 16% | Carry share 15% | Team total 23.0 | First game back,
-2026,10,13413,00-0040890,Cyrus Allen,WR,KC,ATL,2.046,0.785,10.419,0.374,0.067,0.005,0.0,0.0,0.0,Snap share 24% | Target share 5% | Team total 24.5 | QB playing well,
-2026,10,12483,00-0040729,Jack Bech,WR,LV,SEA,2.042,0.917,10.021,0.326,0.062,0.005,0.0,0.0,0.0,Snap share 42% | Target share 6% | Team total 17.0,"Forearm, hurt Week 8"
+2026,10,13320,00-0041044,Zachariah Branch,WR,ATL,KC,2.127,0.708,8.373,0.521,0.06,0.007,0.0,0.0,0.0,Snap share 23% | Target share 5% | Team total 21.8 | First game back,"This week: Hamstring, did not participate in practice | Hamstring, hurt Week 9"
+2026,10,11599,00-0039359,Cade Stover,TE,HOU,CLE,2.106,0.7,5.558,2.311,0.047,0.019,0.0,0.0,0.0,Snap share 31% | Target share 3% | Team total 23.0 | QB playing well | 13% of targets open with teammates out | First game back,
+2026,10,6828,00-0036265,AJ Dillon,RB,CAR,NO,2.092,0.515,4.271,14.653,0.031,0.102,0.0,0.0,0.0,Snap share 16% | Carry share 15% | Team total 23.0 | First game back,
+2026,10,12483,00-0040729,Jack Bech,WR,LV,SEA,2.081,0.937,9.811,0.357,0.062,0.005,0.0,0.0,0.0,Snap share 42% | Target share 6% | Team total 17.0 | Different QB this week,"Forearm, hurt Week 8"
+2026,10,13413,00-0040890,Cyrus Allen,WR,KC,ATL,2.046,0.785,10.46,0.374,0.067,0.005,0.0,0.0,0.0,Snap share 24% | Target share 5% | Team total 24.8 | QB playing well,
+2026,10,13405,00-0041096,Kaytron Allen,RB,MIA,IND,2.043,0.4,3.555,5.201,0.036,0.041,0.0,0.0,0.0,Snap share 7% | Carry share 5% | Team total 17.5 | Different QB this week,"Quadricep, hurt Week 9"
 2026,10,13402,00-0041443,Skyler Bell,WR,BUF,NYJ,2.032,0.766,13.559,0.369,0.124,0.005,0.0,0.0,0.0,Snap share 52% | Target share 7% | Team total 29.5 | QB playing well | First game back,
 2026,10,13408,00-0041084,Tanner Koziol,TE,JAX,TEN,2.019,0.704,8.365,0.181,0.072,0.005,0.0,0.0,0.0,Snap share 19% | Target share 3% | Team total 28.5 | QB playing well,
 2026,10,11157,00-0038840,Brycen Tremayne,WR,CAR,NO,2.016,0.81,9.269,0.345,0.084,0.005,0.0,0.0,0.0,Snap share 37% | Target share 3% | Team total 23.0,
-2026,10,5985,00-0034981,Foster Moreau,TE,HOU,CLE,2.004,0.814,7.039,0.047,0.079,0.005,0.0,0.0,0.0,Snap share 39% | Target share 4% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,
+2026,10,5985,00-0034981,Foster Moreau,TE,HOU,CLE,2.004,0.815,7.102,0.047,0.082,0.005,0.0,0.0,0.0,Snap share 39% | Target share 4% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,
 2026,10,13533,00-0041099,Barion Brown,WR,NO,CAR,1.984,0.787,11.125,0.967,0.065,0.006,0.0,0.0,0.0,Snap share 12% | Target share 3% | Team total 25.5 | 10% of targets open with teammates out,
-2026,10,13075,00-0040506,Myles Price,WR,MIN,GB,1.984,0.957,11.409,0.345,0.064,0.005,0.0,0.0,0.0,Snap share 20% | Target share 5% | Team total 19.0 | QB playing poorly,
-2026,10,13405,00-0041096,Kaytron Allen,RB,MIA,IND,1.976,0.4,3.881,5.222,0.036,0.041,0.0,0.0,0.0,Snap share 7% | Carry share 5% | Team total 17.5,"Quadricep, hurt Week 9"
+2026,10,13075,00-0040506,Myles Price,WR,MIN,GB,1.984,0.957,11.493,0.345,0.065,0.005,0.0,0.0,0.0,Snap share 20% | Target share 5% | Team total 19.8 | QB playing poorly,
 2026,10,13282,00-0041116,Jack Endries,TE,CIN,PIT,1.897,0.576,4.885,0.162,0.048,0.005,0.0,0.0,0.0,Snap share 16% | Target share 2% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
 2026,10,11600,00-0039356,Ja'Tavion Sanders,TE,CAR,NO,1.874,0.644,6.8,0.0,0.061,0.005,0.0,0.0,0.0,Snap share 33% | Target share 5% | Team total 23.0,
-2026,10,13434,00-0041524,Will Kacmarek,TE,MIA,IND,1.863,0.948,9.84,0.2,0.069,0.005,0.0,0.0,0.0,Snap share 39% | Target share 6% | Team total 17.5,
+2026,10,12969,00-0040568,Lan Larison,RB,NE,DET,1.87,0.629,5.3,5.815,0.038,0.038,0.0,0.0,0.0,Snap share 13% | Carry share 5% | Team total 24.5 | QB playing well | 8% of targets open with teammates out | 19% of carries open,
 2026,10,4351,00-0033375,Tim Patrick,WR,NYJ,BUF,1.854,0.752,8.947,0.217,0.081,0.005,0.0,0.0,0.0,Snap share 43% | Target share 6% | Team total 21.0 | First game back,
 2026,10,13268,00-0040876,Elijah Sarratt,WR,BAL,LAC,1.846,0.781,9.036,0.35,0.069,0.005,0.0,0.0,0.0,Snap share 41% | Target share 4% | Team total 21.5 | QB playing poorly | First game back,
-2026,10,8117,00-0037666,Jalen Tolbert,WR,MIA,IND,1.816,0.499,6.818,0.304,0.075,0.005,0.0,0.0,0.0,Snap share 26% | Target share 6% | Team total 17.5 | First game back,
-2026,10,12969,00-0040568,Lan Larison,RB,NE,DET,1.796,0.616,5.219,5.815,0.038,0.037,0.0,0.0,0.0,Snap share 13% | Carry share 5% | Team total 24.5 | QB playing well,
-2026,10,11650,00-0039355,Luke McCaffrey,WR,WAS,NYG,1.755,0.495,6.797,0.309,0.055,0.005,0.0,0.0,0.0,Snap share 15% | Target share 3% | Team total 19.5 | 9% of targets open with teammates out,"Hip, hurt Week 8"
-2026,10,7039,00-0035891,Cody White,WR,LV,SEA,1.69,0.705,8.05,0.304,0.075,0.005,0.0,0.0,0.0,Snap share 48% | Target share 4% | Team total 17.0,
-2026,10,3202,00-0032392,Austin Hooper,TE,ATL,KC,1.65,0.598,6.553,0.042,0.061,0.005,0.0,0.0,0.0,Snap share 22% | Target share 4% | Team total 21.0,
-2026,10,6847,00-0036331,Devin Duvernay,WR,ARI,LA,1.644,0.769,7.536,0.236,0.051,0.005,0.0,0.0,0.0,Snap share 17% | Target share 2% | Team total 15.0 | 25% of targets open with teammates out,
+2026,10,13434,00-0041524,Will Kacmarek,TE,MIA,IND,1.826,0.955,9.848,0.231,0.069,0.005,0.0,0.0,0.0,Snap share 39% | Target share 6% | Team total 17.5 | Different QB this week,"This week: Quadricep, did not participate in practice"
+2026,10,7039,00-0035891,Cody White,WR,LV,SEA,1.812,0.69,7.975,0.335,0.073,0.005,0.0,0.0,0.0,Snap share 48% | Target share 4% | Team total 17.0 | Different QB this week,
+2026,10,8117,00-0037666,Jalen Tolbert,WR,MIA,IND,1.81,0.484,7.059,0.335,0.073,0.005,0.0,0.0,0.0,Snap share 26% | Target share 6% | Team total 17.5 | Different QB this week | First game back,
+2026,10,10220,00-0038394,Will Mallory,TE,IND,MIA,1.806,1.028,10.002,0.146,0.066,0.005,0.0,0.0,0.0,Snap share 22% | Target share 6% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out | First game back,"Throat, hurt Week 9"
+2026,10,11650,00-0039355,Luke McCaffrey,WR,WAS,NYG,1.755,0.495,6.755,0.309,0.055,0.005,0.0,0.0,0.0,Snap share 15% | Target share 3% | Team total 19.0 | 10% of targets open with teammates out,"Hip, hurt Week 8"
+2026,10,11762,00-0039816,Anthony Gould,WR,IND,MIA,1.702,0.676,8.446,0.345,0.037,0.005,0.0,0.0,0.0,Snap share 3% | Target share 1% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,"Concussion, hurt Week 8"
+2026,10,3202,00-0032392,Austin Hooper,TE,ATL,KC,1.65,0.598,6.594,0.042,0.061,0.005,0.0,0.0,0.0,Snap share 22% | Target share 4% | Team total 21.8,
+2026,10,11168,00-0038359,Xavier Smith,WR,LA,ARI,1.646,0.725,8.303,0.304,0.073,0.005,0.0,0.0,0.0,Snap share 34% | Target share 4% | Team total 24.5 | 14% of targets open with teammates out | First game back,
 2026,10,10234,00-0038573,Derius Davis,WR,LAC,BAL,1.622,0.468,5.623,0.681,0.055,0.005,0.0,0.0,0.0,Snap share 9% | Target share 2% | Team total 17.0 | QB playing poorly,
 2026,10,12658,00-0040194,Jackson Hawes,TE,BUF,NYJ,1.606,0.7,7.996,0.151,0.077,0.005,0.0,0.0,0.0,Snap share 43% | Target share 3% | Team total 29.5 | QB playing well,
-2026,10,12700,00-0040215,Gavin Bartholomew,TE,MIN,GB,1.596,0.612,6.331,0.181,0.057,0.005,0.0,0.0,0.0,Snap share 16% | Target share 3% | Team total 19.0 | QB playing poorly,
-2026,10,10225,00-0039062,Jonathan Mingo,WR,DAL,SF,1.589,0.905,8.801,0.329,0.052,0.005,0.0,0.0,0.0,Snap share 26% | Target share 4% | Team total 26.0 | QB playing well,
-2026,10,8917,00-0037801,KaVontae Turpin,WR,DAL,SF,1.563,0.516,7.488,1.487,0.063,0.006,0.0,0.0,0.0,Snap share 18% | Target share 4% | Team total 26.0 | QB playing well | First game back,"Ribs, hurt Week 8 and Week 9"
-2026,10,4144,00-0033858,Jonnu Smith,TE,GB,MIN,1.524,0.645,5.801,0.582,0.041,0.006,0.0,0.0,0.0,Snap share 28% | Target share 3% | Team total 22.5 | QB playing well,
+2026,10,12700,00-0040215,Gavin Bartholomew,TE,MIN,GB,1.596,0.612,6.457,0.181,0.057,0.005,0.0,0.0,0.0,Snap share 16% | Target share 3% | Team total 19.8 | QB playing poorly,
+2026,10,10225,00-0039062,Jonathan Mingo,WR,DAL,SF,1.589,0.905,8.801,0.329,0.052,0.005,0.0,0.0,0.0,Snap share 26% | Target share 4% | Team total 26.0 | QB playing well,"This week: Ankle, did not participate in practice"
+2026,10,8917,00-0037801,KaVontae Turpin,WR,DAL,SF,1.563,0.516,7.488,1.487,0.063,0.006,0.0,0.0,0.0,Snap share 18% | Target share 4% | Team total 26.0 | QB playing well | First game back,"This week: Ribs, limited participation | Ribs, hurt Week 8 and Week 9"
+2026,10,7496,00-0036182,Nick Westbrook-Ikhine,WR,IND,MIA,1.526,0.699,7.677,0.236,0.043,0.005,0.0,0.0,0.0,Snap share 23% | Target share 2% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out | First game back,
+2026,10,4144,00-0033858,Jonnu Smith,TE,GB,MIN,1.524,0.655,6.118,0.582,0.041,0.006,0.0,0.0,0.0,Snap share 28% | Target share 3% | Team total 22.8 | QB playing well,
+2026,10,12541,00-0040581,Dont'e Thornton Jr.,WR,LV,SEA,1.504,0.577,10.391,0.381,0.069,0.005,0.0,0.0,0.0,Snap share 36% | Target share 6% | Team total 17.0 | Different QB this week,
 2026,10,12765,00-0040363,Keleki Latu,TE,BUF,NYJ,1.501,0.31,3.877,0.181,0.038,0.005,0.0,0.0,0.0,Snap share 13% | Target share 1% | Team total 29.5 | QB playing well,
+2026,10,4054,00-0033217,Mo Alie-Cox,TE,IND,MIA,1.501,0.735,6.54,0.061,0.046,0.005,0.0,0.0,0.0,Snap share 36% | Target share 3% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,"This week: Groin, did not participate in practice"
 2026,10,7842,00-0036887,Luke Farrell,TE,SF,DAL,1.497,0.517,6.29,0.047,0.077,0.005,0.0,0.0,0.0,Snap share 44% | Target share 2% | Team total 29.5 | QB playing well,
-2026,10,12541,00-0040581,Dont'e Thornton Jr.,WR,LV,SEA,1.488,0.628,10.958,0.35,0.075,0.005,0.0,0.0,0.0,Snap share 36% | Target share 6% | Team total 17.0,
 2026,10,12544,00-0040238,LeQuint Allen Jr.,RB,JAX,TEN,1.485,0.799,6.79,1.806,0.053,0.011,0.0,0.0,0.0,Snap share 13% | Carry share 1% | Team total 28.5 | QB playing well,"Hamstring, hurt Week 8"
 2026,10,12531,00-0040644,Trevor Etienne,RB,CAR,NO,1.483,0.325,1.53,8.466,0.014,0.058,0.0,0.0,0.0,Snap share 9% | Carry share 8% | Team total 23.0,
-2026,10,7812,00-0036646,Simi Fehoko,WR,ARI,LA,1.483,0.551,6.188,0.304,0.042,0.005,0.0,0.0,0.0,Snap share 23% | Target share 1% | Team total 15.0 | 25% of targets open with teammates out,
 2026,10,13380,00-0041550,Brenen Thompson,WR,LAC,BAL,1.434,0.735,7.65,0.35,0.059,0.005,0.0,0.0,0.0,Snap share 30% | Target share 4% | Team total 17.0 | QB playing poorly | First game back,"Quadricep, hurt Week 8 and Week 9"
-2026,10,10220,00-0038394,Will Mallory,TE,IND,MIA,1.411,0.731,7.83,0.146,0.066,0.005,0.0,0.0,0.0,Snap share 22% | Target share 6% | Team total 21.0 | QB playing poorly | First game back,"Throat, hurt Week 9"
 2026,10,11629,00-0039792,Devontez Walker,WR,BAL,LAC,1.332,0.423,6.559,0.326,0.045,0.005,0.0,0.0,0.0,Snap share 36% | Target share 3% | Team total 21.5 | QB playing poorly,Snaps 16% and 27% the last 2 games (usual 44%)
-2026,10,12863,00-0040298,Andrew Armstrong,WR,KC,ATL,1.311,0.549,6.754,0.374,0.05,0.005,0.0,0.0,0.0,Snap share 44% | Target share 3% | Team total 24.5 | QB playing well,Snaps 32% and 33% the last 2 games (usual 64%)
+2026,10,12863,00-0040298,Andrew Armstrong,WR,KC,ATL,1.311,0.549,6.754,0.374,0.05,0.005,0.0,0.0,0.0,Snap share 44% | Target share 3% | Team total 24.8 | QB playing well,Snaps 32% and 33% the last 2 games (usual 64%)
+2026,10,11056,00-0038728,Jared Wayne,WR,MIA,IND,1.311,0.438,5.982,0.406,0.043,0.005,0.0,0.0,0.0,Snap share 30% | Target share 3% | Team total 17.5 | Different QB this week,
+2026,10,13329,00-0040894,Malik Benson,WR,LV,SEA,1.293,0.469,5.85,0.381,0.061,0.005,0.0,0.0,0.0,Snap share 11% | Target share 3% | Team total 17.0 | Different QB this week | First game back,
 2026,10,12467,00-0040177,Jordan James,RB,SF,DAL,1.291,0.222,2.326,6.365,0.017,0.032,0.0,0.0,0.0,Snap share 4% | Carry share 4% | Team total 29.5 | QB playing well,
-2026,10,13419,00-0040959,Jaydn Ott,RB,KC,ATL,1.281,0.185,1.375,6.712,0.014,0.04,0.0,0.0,0.0,Snap share 2% | Carry share 4% | Team total 24.5 | QB playing well,
-2026,10,8227,00-0037277,Teagan Quitoriano,TE,ARI,LA,1.28,0.436,3.738,0.113,0.031,0.005,0.0,0.0,0.0,Snap share 29% | Target share 1% | Team total 15.0 | 25% of targets open with teammates out,
-2026,10,13329,00-0040894,Malik Benson,WR,LV,SEA,1.267,0.495,5.85,0.35,0.061,0.005,0.0,0.0,0.0,Snap share 11% | Target share 3% | Team total 17.0 | First game back,
+2026,10,9220,00-0038397,Evan Hull,RB,ARI,LA,1.29,0.421,2.247,6.26,0.014,0.018,0.0,0.0,0.0,Snap share 10% | Carry share 5% | Team total 15.0 | Different QB this week | 50% of targets open with teammates out | 53% of carries open,
+2026,10,13419,00-0040959,Jaydn Ott,RB,KC,ATL,1.281,0.185,1.375,6.712,0.014,0.04,0.0,0.0,0.0,Snap share 2% | Carry share 4% | Team total 24.8 | QB playing well,
 2026,10,5133,00-0034270,Tyler Conklin,TE,DET,NE,1.265,0.665,6.544,0.028,0.059,0.005,0.0,0.0,0.0,Snap share 20% | Target share 2% | Team total 27.0 | QB playing well,
-2026,10,7521,00-0036463,Chris Blair,WR,ATL,KC,1.248,0.463,5.604,0.34,0.05,0.005,0.0,0.0,0.0,Snap share 23% | Target share 2% | Team total 21.0,
+2026,10,7521,00-0036463,Chris Blair,WR,ATL,KC,1.248,0.463,5.604,0.34,0.05,0.005,0.0,0.0,0.0,Snap share 23% | Target share 2% | Team total 21.8,
 2026,10,4189,00-0033576,Eric Saubert,TE,SEA,LV,1.211,0.518,5.323,0.061,0.046,0.005,0.0,0.0,0.0,Snap share 33% | Target share 2% | Team total 23.5,
 2026,10,12699,00-0040075,LaJohntay Wester,WR,BAL,LAC,1.188,0.47,5.636,0.679,0.031,0.005,0.0,0.0,0.0,Snap share 10% | Target share 2% | Team total 21.5 | QB playing poorly,
-2026,10,8195,00-0037557,Ronnie Rivers,RB,LA,ARI,1.184,0.176,1.758,6.267,0.017,0.026,0.0,0.0,0.0,Snap share 4% | Carry share 4% | Team total 24.5 | 12% of targets open with teammates out,
-2026,10,12817,00-0040081,Jake Briningstool,TE,KC,ATL,1.176,0.553,6.248,0.181,0.051,0.005,0.0,0.0,0.0,Snap share 14% | Target share 3% | Team total 24.5 | QB playing well,
+2026,10,8195,00-0037557,Ronnie Rivers,RB,LA,ARI,1.184,0.176,1.758,6.267,0.017,0.026,0.0,0.0,0.0,Snap share 4% | Carry share 4% | Team total 24.5 | 14% of targets open with teammates out,
+2026,10,12817,00-0040081,Jake Briningstool,TE,KC,ATL,1.176,0.553,6.248,0.181,0.051,0.005,0.0,0.0,0.0,Snap share 14% | Target share 3% | Team total 24.8 | QB playing well,
 2026,10,7865,00-0036775,Brandon Smith,WR,PIT,CIN,1.175,0.409,5.109,0.374,0.04,0.005,0.0,0.0,0.0,Snap share 35% | Target share 1% | Team total 23.0,
-2026,10,6931,00-0036425,DeeJay Dallas,RB,MIN,GB,1.152,0.501,3.509,1.131,0.023,0.012,0.0,0.0,0.0,Snap share 15% | Carry share 2% | Team total 19.0 | QB playing poorly,
-2026,10,12503,00-0040782,Isaiah Bond,WR,CLE,HOU,1.14,0.347,5.414,0.343,0.048,0.007,0.0,0.0,0.0,Snap share 18% | Target share 3% | Team total 17.5 | QB playing poorly,
-2026,10,13121,00-0040509,Ben Yurosek,TE,MIN,GB,1.128,0.518,5.726,0.181,0.048,0.005,0.0,0.0,0.0,Snap share 32% | Target share 2% | Team total 19.0 | QB playing poorly,Snaps 43% and 21% the last 2 games (usual 53%)
-2026,10,4054,00-0033217,Mo Alie-Cox,TE,IND,MIA,1.115,0.482,4.737,0.061,0.046,0.005,0.0,0.0,0.0,Snap share 36% | Target share 3% | Team total 21.0 | QB playing poorly,
+2026,10,6931,00-0036425,DeeJay Dallas,RB,MIN,GB,1.152,0.503,3.589,1.543,0.023,0.012,0.0,0.0,0.0,Snap share 15% | Carry share 2% | Team total 19.8 | QB playing poorly,
+2026,10,12503,00-0040782,Isaiah Bond,WR,CLE,HOU,1.137,0.362,5.456,0.343,0.049,0.007,0.0,0.0,0.0,Snap share 18% | Target share 3% | Team total 18.5 | QB playing poorly,
+2026,10,13121,00-0040509,Ben Yurosek,TE,MIN,GB,1.128,0.518,5.807,0.181,0.049,0.005,0.0,0.0,0.0,Snap share 32% | Target share 2% | Team total 19.8 | QB playing poorly,Snaps 43% and 21% the last 2 games (usual 53%)
 2026,10,12939,00-0040394,Anthony Tyus III,RB,CAR,NO,1.112,0.202,1.419,3.461,0.014,0.028,0.0,0.0,0.0,Snap share 2% | Carry share 3% | Team total 23.0,
-2026,10,9497,00-0038938,Jalin Hyatt,WR,NYG,WAS,1.074,0.509,6.256,0.334,0.051,0.005,0.0,0.0,0.0,Snap share 25% | Target share 3% | Team total 22.0,
+2026,10,4995,00-0034365,Ian Thomas,TE,LV,SEA,1.077,0.381,2.97,0.09,0.031,0.005,0.0,0.0,0.0,Snap share 32% | Target share 1% | Team total 17.0 | Different QB this week,
+2026,10,9497,00-0038938,Jalin Hyatt,WR,NYG,WAS,1.074,0.503,6.214,0.334,0.051,0.005,0.0,0.0,0.0,Snap share 25% | Target share 3% | Team total 21.5,
 2026,10,13319,00-0041041,Oscar Delp,TE,NO,CAR,1.069,0.512,4.275,0.181,0.034,0.005,0.0,0.0,0.0,Snap share 31% | Target share 2% | Team total 25.5 | 10% of targets open with teammates out,
-2026,10,11056,00-0038728,Jared Wayne,WR,MIA,IND,1.043,0.459,5.982,0.374,0.045,0.005,0.0,0.0,0.0,Snap share 30% | Target share 3% | Team total 17.5,
+2026,10,8489,00-0037292,Andrew Ogletree,TE,IND,MIA,1.069,0.633,5.763,0.129,0.05,0.005,0.0,0.0,0.0,Snap share 31% | Target share 2% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out,"Knee, hurt Week 8"
 2026,10,8250,00-0037524,Tay Martin,WR,DET,NE,1.019,0.29,5.097,0.355,0.046,0.005,0.0,0.0,0.0,Snap share 4% | Target share 1% | Team total 27.0 | QB playing well,
 2026,10,13477,00-0041069,Colbie Young,WR,CIN,PIT,0.995,0.332,3.874,0.355,0.028,0.005,0.0,0.0,0.0,Snap share 19% | Target share 1% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
+2026,10,14026,00-0041436,DJ Herman,RB,MIA,IND,0.992,0.228,1.921,1.132,0.025,0.008,0.0,0.0,0.0,Snap share 38% | Carry share 0% | Team total 17.5 | Different QB this week,
 2026,10,13288,00-0040886,Nicholas Singleton,RB,TEN,JAX,0.986,0.17,1.354,5.623,0.014,0.035,0.0,0.0,0.0,Snap share 5% | Carry share 5% | Team total 18.0,
-2026,10,12496,00-0040154,Tai Felton,WR,MIN,GB,0.971,0.427,6.205,0.345,0.044,0.005,0.0,0.0,0.0,Snap share 20% | Target share 3% | Team total 19.0 | QB playing poorly,
-2026,10,9220,00-0038397,Evan Hull,RB,ARI,LA,0.964,0.332,2.077,6.052,0.014,0.016,0.0,0.0,0.0,Snap share 10% | Carry share 5% | Team total 15.0 | 25% of targets open with teammates out | 49% of carries open,
+2026,10,13429,00-0041579,Seydou Traore,TE,MIA,IND,0.974,0.234,2.875,0.231,0.035,0.005,0.0,0.0,0.0,Snap share 11% | Target share 1% | Team total 17.5 | Different QB this week,
+2026,10,12496,00-0040154,Tai Felton,WR,MIN,GB,0.971,0.427,6.221,0.345,0.045,0.005,0.0,0.0,0.0,Snap share 20% | Target share 3% | Team total 19.8 | QB playing poorly,
 2026,10,,00-0041398,Riley Nowakowski,RB,PIT,CIN,0.917,0.255,2.711,1.24,0.018,0.007,0.0,0.0,0.0,Snap share 7% | Carry share 0% | Team total 23.0,
+2026,10,11201,00-0038710,Blake Whiteheart,TE,CLE,HOU,0.916,0.532,5.463,0.11,0.049,0.005,0.0,0.0,0.0,Snap share 32% | Target share 2% | Team total 18.5 | QB playing poorly,
 2026,10,7757,00-0036862,Ben Skowronek,WR,PIT,CIN,0.909,0.288,4.571,0.236,0.043,0.005,0.0,0.0,0.0,Snap share 11% | Target share 2% | Team total 23.0 | First game back,"Calf, hurt Week 8"
-2026,10,11623,00-0039751,Jordan Whittington,WR,LA,ARI,0.899,0.36,3.904,0.309,0.037,0.005,0.0,0.0,0.0,Snap share 17% | Target share 1% | Team total 24.5 | 12% of targets open with teammates out,"Back, hurt Week 8 and Week 9"
-2026,10,8204,00-0037091,Bo Melton,WR,GB,MIN,0.888,0.472,5.658,0.589,0.044,0.005,0.0,0.0,0.0,Snap share 27% | Target share 3% | Team total 22.5 | QB playing well,
-2026,10,11201,00-0038710,Blake Whiteheart,TE,CLE,HOU,0.881,0.525,5.422,0.127,0.048,0.005,0.0,0.0,0.0,Snap share 32% | Target share 2% | Team total 17.5 | QB playing poorly,
-2026,10,12889,00-0040432,Beaux Collins,WR,ATL,KC,0.851,0.348,4.233,0.355,0.044,0.005,0.0,0.0,0.0,Snap share 12% | Target share 2% | Team total 21.0,"Hip, hurt Week 8 and Week 9"
+2026,10,8204,00-0037091,Bo Melton,WR,GB,MIN,0.888,0.472,5.671,0.589,0.044,0.005,0.0,0.0,0.0,Snap share 27% | Target share 3% | Team total 22.8 | QB playing well,
+2026,10,12889,00-0040432,Beaux Collins,WR,ATL,KC,0.851,0.348,4.233,0.355,0.044,0.005,0.0,0.0,0.0,Snap share 12% | Target share 2% | Team total 21.8,"Hip, hurt Week 8 and Week 9"
+2026,10,7595,00-0036630,Tylan Wallace,WR,CLE,HOU,0.811,0.439,4.625,0.222,0.045,0.005,0.0,0.0,0.0,Snap share 16% | Target share 2% | Team total 18.5 | QB playing poorly,
 2026,10,11570,00-0039796,Rasheen Ali,RB,BAL,LAC,0.803,0.164,1.885,5.104,0.017,0.029,0.0,0.0,0.0,Snap share 4% | Carry share 4% | Team total 21.5 | QB playing poorly,
 2026,10,7602,00-0036876,Kylen Granson,TE,TEN,JAX,0.798,0.424,5.547,0.04,0.049,0.005,0.0,0.0,0.0,Snap share 19% | Target share 3% | Team total 18.0 | First game back,
-2026,10,7595,00-0036630,Tylan Wallace,WR,CLE,HOU,0.791,0.431,4.583,0.222,0.044,0.005,0.0,0.0,0.0,Snap share 16% | Target share 2% | Team total 17.5 | QB playing poorly,
-2026,10,7716,00-0036628,John Bates,TE,WAS,NYG,0.775,0.437,4.216,0.047,0.036,0.005,0.0,0.0,0.0,Snap share 39% | Target share 2% | Team total 19.5 | 9% of targets open with teammates out,"Shoulder, hurt Week 8 and Week 9"
-2026,10,11942,00-0039686,Colson Yankoff,TE,WAS,NYG,0.772,0.339,3.321,0.151,0.037,0.005,0.0,0.0,0.0,Snap share 12% | Target share 2% | Team total 19.5 | 9% of targets open with teammates out,"This week: Knee, did not participate in practice"
-2026,10,14026,00-0041436,DJ Herman,RB,MIA,IND,0.76,0.221,1.921,0.924,0.025,0.007,0.0,0.0,0.0,Snap share 38% | Carry share 0% | Team total 17.5,
-2026,10,2078,00-0031235,Odell Beckham Jr.,WR,MIN,GB,0.754,0.409,6.33,0.241,0.052,0.005,0.0,0.0,0.0,Snap share 14% | Target share 3% | Team total 19.0 | QB playing poorly,
+2026,10,7716,00-0036628,John Bates,TE,WAS,NYG,0.775,0.445,4.174,0.047,0.035,0.005,0.0,0.0,0.0,Snap share 39% | Target share 2% | Team total 19.0 | 10% of targets open with teammates out,"Shoulder, hurt Week 8 and Week 9"
+2026,10,8181,00-0037304,Connor Heyward,RB,LV,SEA,0.759,0.252,2.172,2.198,0.016,0.017,0.0,0.0,0.0,Snap share 22% | Carry share 2% | Team total 17.0 | Different QB this week,
+2026,10,11574,00-0039407,Dylan Laube,RB,LV,SEA,0.758,0.256,1.569,2.259,0.014,0.023,0.0,0.0,0.0,Snap share 7% | Carry share 3% | Team total 17.0 | Different QB this week,
+2026,10,8527,00-0037093,Dareke Young,WR,LV,SEA,0.752,0.162,2.253,0.335,0.026,0.005,0.0,0.0,0.0,Snap share 9% | Target share 1% | Team total 17.0 | Different QB this week,
 2026,10,2750,00-0031763,DeAndre Carter,WR,DET,NE,0.746,0.288,3.68,0.091,0.033,0.005,0.0,0.0,0.0,Snap share 2% | Target share 1% | Team total 27.0 | QB playing well,
-2026,10,7568,00-0036556,Brevin Jordan,TE,HOU,CLE,0.735,0.369,3.912,0.115,0.033,0.005,0.0,0.0,0.0,Snap share 20% | Target share 2% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,
-2026,10,13307,00-0041472,Marlin Klein,TE,HOU,CLE,0.735,0.262,3.325,0.181,0.033,0.005,0.0,0.0,0.0,Snap share 15% | Target share 0% | Team total 22.0 | QB playing well | 13% of targets open with teammates out,
-2026,10,11596,00-0039912,Ben Sinnott,TE,WAS,NYG,0.734,0.386,3.826,0.115,0.037,0.005,0.0,0.0,0.0,Snap share 39% | Target share 2% | Team total 19.5 | 9% of targets open with teammates out,
-2026,10,8523,00-0037317,Nick Muse,TE,ATL,KC,0.734,0.269,2.738,0.146,0.026,0.005,0.0,0.0,0.0,Snap share 16% | Target share 1% | Team total 21.0,
-2026,10,12715,00-0040225,Thomas Fidone II,TE,NYG,WAS,0.733,0.27,3.724,0.176,0.037,0.005,0.0,0.0,0.0,Snap share 12% | Target share 1% | Team total 22.0 | First game back,
-2026,10,4995,00-0034365,Ian Thomas,TE,LV,SEA,0.719,0.389,2.97,0.059,0.031,0.005,0.0,0.0,0.0,Snap share 32% | Target share 1% | Team total 17.0,
+2026,10,7568,00-0036556,Brevin Jordan,TE,HOU,CLE,0.735,0.37,3.975,0.115,0.033,0.005,0.0,0.0,0.0,Snap share 20% | Target share 2% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,"This week: Finger, did not participate in practice"
+2026,10,13307,00-0041472,Marlin Klein,TE,HOU,CLE,0.735,0.269,3.366,0.181,0.033,0.005,0.0,0.0,0.0,Snap share 15% | Target share 0% | Team total 23.0 | QB playing well | 13% of targets open with teammates out,
+2026,10,11596,00-0039912,Ben Sinnott,TE,WAS,NYG,0.734,0.394,3.785,0.115,0.036,0.005,0.0,0.0,0.0,Snap share 39% | Target share 2% | Team total 19.0 | 10% of targets open with teammates out,
+2026,10,8523,00-0037317,Nick Muse,TE,ATL,KC,0.734,0.269,2.738,0.146,0.026,0.005,0.0,0.0,0.0,Snap share 16% | Target share 1% | Team total 21.8,
+2026,10,12715,00-0040225,Thomas Fidone II,TE,NYG,WAS,0.733,0.27,3.682,0.176,0.037,0.005,0.0,0.0,0.0,Snap share 12% | Target share 1% | Team total 21.5 | First game back,
 2026,10,13151,00-0040058,Nick Kallerup,TE,SEA,LV,0.712,0.227,2.678,0.181,0.027,0.005,0.0,0.0,0.0,Snap share 23% | Target share 0% | Team total 23.5,
-2026,10,8489,00-0037292,Andrew Ogletree,TE,IND,MIA,0.685,0.413,4.378,0.129,0.05,0.005,0.0,0.0,0.0,Snap share 31% | Target share 2% | Team total 21.0 | QB playing poorly,"Knee, hurt Week 8"
-2026,10,,00-0041081,Max Bredeson,RB,MIN,GB,0.672,0.225,1.495,1.511,0.014,0.007,0.0,0.0,0.0,Snap share 19% | Carry share 0% | Team total 19.0 | QB playing poorly,
-2026,10,13770,00-0040948,J. Michael Sturdivant,WR,GB,MIN,0.653,0.313,3.733,0.355,0.039,0.005,0.0,0.0,0.0,Snap share 20% | Target share 1% | Team total 22.5 | QB playing well,
-2026,10,11617,00-0039920,Malachi Corley,WR,CLE,HOU,0.648,0.341,4.671,1.197,0.025,0.008,0.0,0.0,0.0,Snap share 17% | Target share 1% | Team total 17.5 | QB playing poorly,
-2026,10,13429,00-0041579,Seydou Traore,TE,MIA,IND,0.637,0.237,2.875,0.2,0.035,0.005,0.0,0.0,0.0,Snap share 11% | Target share 1% | Team total 17.5,
-2026,10,11762,00-0039816,Anthony Gould,WR,IND,MIA,0.633,0.245,4.219,0.345,0.037,0.005,0.0,0.0,0.0,Snap share 3% | Target share 1% | Team total 21.0 | QB playing poorly,"Concussion, hurt Week 8"
-2026,10,11320,00-0038519,Nikko Remigio,WR,KC,ATL,0.63,0.168,3.325,0.401,0.026,0.005,0.0,0.0,0.0,Snap share 1% | Target share 0% | Team total 24.5 | QB playing well,"Hip, hurt Week 9"
-2026,10,4274,00-0033589,David Moore,WR,CAR,NO,0.622,0.346,4.334,0.241,0.048,0.006,0.0,0.0,0.0,Snap share 15% | Target share 2% | Team total 23.0,
+2026,10,,00-0041081,Max Bredeson,RB,MIN,GB,0.672,0.225,1.508,1.511,0.014,0.007,0.0,0.0,0.0,Snap share 19% | Carry share 0% | Team total 19.8 | QB playing poorly,
+2026,10,13770,00-0040948,J. Michael Sturdivant,WR,GB,MIN,0.653,0.313,3.746,0.355,0.039,0.005,0.0,0.0,0.0,Snap share 20% | Target share 1% | Team total 22.8 | QB playing well,
+2026,10,11617,00-0039920,Malachi Corley,WR,CLE,HOU,0.645,0.349,4.713,1.197,0.026,0.008,0.0,0.0,0.0,Snap share 17% | Target share 1% | Team total 18.5 | QB playing poorly,
+2026,10,11320,00-0038519,Nikko Remigio,WR,KC,ATL,0.63,0.168,3.325,0.401,0.026,0.005,0.0,0.0,0.0,Snap share 1% | Target share 0% | Team total 24.8 | QB playing well,"Hip, hurt Week 9"
+2026,10,4443,00-0033439,Pharaoh Brown,TE,IND,MIA,0.63,0.38,3.121,0.042,0.026,0.005,0.0,0.0,0.0,Snap share 16% | Target share 1% | Team total 21.0 | QB playing poorly | 42% of targets open with teammates out | First game back,
 2026,10,8145,00-0037805,Jeremy Ruckert,TE,NYJ,BUF,0.604,0.396,3.324,0.042,0.034,0.005,0.0,0.0,0.0,Snap share 33% | Target share 2% | Team total 21.0,
 2026,10,10994,00-0038614,Scott Matlock,RB,LAC,BAL,0.6,0.21,1.463,0.944,0.014,0.007,0.0,0.0,0.0,Snap share 31% | Carry share 0% | Team total 17.0 | QB playing poorly,
 2026,10,8219,00-0037755,Jelani Woods,TE,NYJ,BUF,0.592,0.392,4.303,0.146,0.043,0.005,0.0,0.0,0.0,Snap share 25% | Target share 2% | Team total 21.0,
 2026,10,8861,00-0037156,Irvin Charles,WR,SEA,LV,0.574,0.168,3.013,0.659,0.026,0.005,0.0,0.0,0.0,Snap share 19% | Target share 0% | Team total 23.5,
-2026,10,4353,00-0033376,Patrick Ricard,RB,NYG,WAS,0.574,0.225,1.531,2.159,0.014,0.008,0.0,0.0,0.0,Snap share 37% | Carry share 0% | Team total 22.0 | 46% of carries open,
-2026,10,4718,00-0033854,Dare Ogunbowale,RB,HOU,CLE,0.57,0.344,3.199,1.285,0.024,0.027,0.0,0.0,0.0,Snap share 8% | Carry share 1% | Team total 22.0 | QB playing well | 13% of targets open with teammates out | 24% of carries open,
+2026,10,4353,00-0033376,Patrick Ricard,RB,NYG,WAS,0.574,0.219,1.489,2.159,0.014,0.008,0.0,0.0,0.0,Snap share 37% | Carry share 0% | Team total 21.5 | 46% of carries open,
+2026,10,4718,00-0033854,Dare Ogunbowale,RB,HOU,CLE,0.57,0.345,3.24,1.285,0.024,0.027,0.0,0.0,0.0,Snap share 8% | Carry share 1% | Team total 23.0 | QB playing well | 13% of targets open with teammates out | 24% of carries open,
 2026,10,12062,00-0039631,Cam Grandy,TE,CIN,PIT,0.57,0.244,2.202,0.193,0.026,0.005,0.0,0.0,0.0,Snap share 15% | Target share 1% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
-2026,10,5154,00-0034487,Trent Sherfield,WR,BUF,NYJ,0.557,0.229,3.224,0.241,0.027,0.005,0.0,0.0,0.0,Snap share 16% | Target share 0% | Team total 29.5 | QB playing well,
 2026,10,11280,00-0038488,Brady Russell,RB,SEA,LV,0.55,0.186,2.57,0.85,0.019,0.008,0.0,0.0,0.0,Snap share 17% | Carry share 0% | Team total 23.5,
-2026,10,13013,00-0040598,Mark Redman,TE,GB,MIN,0.543,0.255,3.322,0.175,0.037,0.005,0.0,0.0,0.0,Snap share 34% | Target share 1% | Team total 22.5 | QB playing well,
+2026,10,13013,00-0040598,Mark Redman,TE,GB,MIN,0.543,0.255,3.335,0.175,0.037,0.005,0.0,0.0,0.0,Snap share 34% | Target share 1% | Team total 22.8 | QB playing well,
 2026,10,12543,00-0040208,Tahj Brooks,RB,CIN,PIT,0.54,0.191,1.422,3.186,0.014,0.022,0.0,0.0,0.0,Snap share 2% | Carry share 3% | Team total 26.5 | QB playing well | 11% of targets open with teammates out,
 2026,10,10224,00-0038643,Brayden Willis,TE,SF,DAL,0.518,0.189,1.968,0.115,0.026,0.005,0.0,0.0,0.0,Snap share 9% | Target share 0% | Team total 29.5 | QB playing well,
-2026,10,12829,00-0040352,Coleman Owen,WR,GB,MIN,0.508,0.177,2.631,0.355,0.026,0.005,0.0,0.0,0.0,Snap share 4% | Target share 0% | Team total 22.5 | QB playing well,
-2026,10,12389,00-0039489,Hayden Rucci,TE,LAC,BAL,0.491,0.21,2.538,0.178,0.035,0.005,0.0,0.0,0.0,Snap share 21% | Target share 1% | Team total 17.0 | QB playing poorly,
-2026,10,8527,00-0037093,Dareke Young,WR,LV,SEA,0.489,0.176,2.235,0.304,0.026,0.005,0.0,0.0,0.0,Snap share 9% | Target share 1% | Team total 17.0,
-2026,10,3048,00-0031484,Chris Manhertz,TE,NYG,WAS,0.478,0.208,2.0,0.047,0.027,0.005,0.0,0.0,0.0,Snap share 34% | Target share 0% | Team total 22.0,
-2026,10,10228,00-0038576,Charlie Jones,WR,NYG,WAS,0.468,0.241,3.981,0.309,0.037,0.005,0.0,0.0,0.0,Snap share 4% | Target share 1% | Team total 22.0,"Hand, hurt Week 9"
+2026,10,12829,00-0040352,Coleman Owen,WR,GB,MIN,0.508,0.177,2.644,0.355,0.026,0.005,0.0,0.0,0.0,Snap share 4% | Target share 0% | Team total 22.8 | QB playing well,
+2026,10,3048,00-0031484,Chris Manhertz,TE,NYG,WAS,0.478,0.202,1.958,0.047,0.027,0.005,0.0,0.0,0.0,Snap share 34% | Target share 0% | Team total 21.5,
+2026,10,10228,00-0038576,Charlie Jones,WR,NYG,WAS,0.468,0.241,3.939,0.309,0.037,0.005,0.0,0.0,0.0,Snap share 4% | Target share 1% | Team total 21.5,"Hand, hurt Week 9"
 2026,10,5970,00-0035500,Greg Dortch,WR,BUF,NYJ,0.455,0.306,3.835,0.315,0.034,0.01,0.0,0.0,0.0,Snap share 10% | Target share 1% | Team total 29.5 | QB playing well,
 2026,10,9510,00-0038409,Lew Nichols III,RB,PIT,CIN,0.449,0.148,1.375,1.745,0.014,0.007,0.0,0.0,0.0,Snap share 4% | Carry share 1% | Team total 23.0,
 2026,10,7536,00-0036590,Quintin Morris,TE,JAX,TEN,0.405,0.232,2.356,0.047,0.026,0.005,0.0,0.0,0.0,Snap share 17% | Target share 1% | Team total 28.5 | QB playing well,
-2026,10,11595,00-0039824,Jared Wiley,TE,KC,ATL,0.397,0.199,2.172,0.222,0.026,0.005,0.0,0.0,0.0,Snap share 9% | Target share 0% | Team total 24.5 | QB playing well,
+2026,10,11595,00-0039824,Jared Wiley,TE,KC,ATL,0.397,0.199,2.172,0.222,0.026,0.005,0.0,0.0,0.0,Snap share 9% | Target share 0% | Team total 24.8 | QB playing well,
 2026,10,11510,00-0038738,Hunter Luepke,RB,DAL,SF,0.394,0.399,2.689,1.88,0.022,0.008,0.0,0.0,0.0,Snap share 17% | Carry share 2% | Team total 26.0 | QB playing well,
-2026,10,3258,00-0032394,Nick Vannett,TE,BAL,LAC,0.388,0.194,2.226,0.032,0.027,0.005,0.0,0.0,0.0,Snap share 22% | Target share 0% | Team total 21.5 | QB playing poorly,
-2026,10,4443,00-0033439,Pharaoh Brown,TE,IND,MIA,0.38,0.208,2.235,0.042,0.026,0.005,0.0,0.0,0.0,Snap share 16% | Target share 1% | Team total 21.0 | QB playing poorly | First game back,
 2026,10,7531,00-0036825,Feleipe Franks,TE,CAR,NO,0.374,0.215,1.832,0.047,0.026,0.005,0.0,0.0,0.0,Snap share 5% | Target share 0% | Team total 23.0,
 2026,10,10871,00-0038547,Luke Schoonmaker,TE,DAL,SF,0.368,0.302,2.516,0.091,0.037,0.005,0.0,0.0,0.0,Snap share 18% | Target share 1% | Team total 26.0 | QB playing well | First game back,"Groin, hurt Week 8 and Week 9"
 2026,10,4602,00-0033757,Robert Tonyan,TE,PIT,CIN,0.361,0.168,1.933,0.047,0.026,0.005,0.0,0.0,0.0,Snap share 7% | Target share 0% | Team total 23.0,
-2026,10,11574,00-0039407,Dylan Laube,RB,LV,SEA,0.343,0.256,1.569,1.911,0.014,0.021,0.0,0.0,0.0,Snap share 7% | Carry share 3% | Team total 17.0,
-2026,10,8181,00-0037304,Connor Heyward,RB,LV,SEA,0.338,0.252,2.172,1.609,0.016,0.016,0.0,0.0,0.0,Snap share 22% | Carry share 2% | Team total 17.0,
 2026,10,11237,00-0038896,Jacob Saylors,RB,DET,NE,0.337,0.152,1.124,1.069,0.014,0.007,0.0,0.0,0.0,Snap share 0% | Carry share 0% | Team total 27.0 | QB playing well | First game back,"Neck, hurt Week 9"
-2026,10,2471,00-0031595,Michael Burton,RB,CLE,HOU,0.331,0.187,1.838,2.013,0.016,0.015,0.0,0.0,0.0,Snap share 14% | Carry share 1% | Team total 17.5 | QB playing poorly | 31% of carries open,
+2026,10,2471,00-0031595,Michael Burton,RB,CLE,HOU,0.324,0.194,1.879,2.013,0.017,0.015,0.0,0.0,0.0,Snap share 14% | Carry share 1% | Team total 18.5 | QB playing poorly | 31% of carries open,"This week: Calf, did not participate in practice"
 2026,10,6012,00-0035594,Travis Homer,RB,PIT,CIN,0.316,0.135,1.326,1.453,0.014,0.012,0.0,0.0,0.0,Snap share 1% | Carry share 2% | Team total 23.0,
 2026,10,12357,00-0039648,David Martin-Robinson,TE,TEN,JAX,0.257,0.129,2.015,0.149,0.026,0.005,0.0,0.0,0.0,Snap share 8% | Target share 1% | Team total 18.0,
-2026,10,10212,00-0038589,Josh Whyle,TE,GB,MIN,0.213,0.094,1.793,0.091,0.026,0.005,0.0,0.0,0.0,Snap share 17% | Target share 1% | Team total 22.5 | QB playing well | First game back,"Concussion, hurt Week 9"
+2026,10,10212,00-0038589,Josh Whyle,TE,GB,MIN,0.213,0.094,1.806,0.091,0.026,0.005,0.0,0.0,0.0,Snap share 17% | Target share 1% | Team total 22.8 | QB playing well | First game back,"This week: Concussion, did not participate in practice | Concussion, hurt Week 9"
 2026,10,8254,00-0037594,Julius Chestnut,RB,TEN,JAX,0.182,0.117,1.305,1.012,0.014,0.009,0.0,0.0,0.0,Snap share 1% | Carry share 0% | Team total 18.0,
 2026,10,7720,00-0036842,Kene Nwangwu,RB,NYJ,BUF,0.099,0.151,1.326,3.009,0.014,0.03,0.0,0.0,0.0,Snap share 3% | Carry share 3% | Team total 21.0,
 2026,10,6323,00-0034959,Andrew Beck,RB,NYJ,BUF,0.042,0.175,1.396,0.54,0.014,0.017,0.0,0.0,0.0,Snap share 5% | Carry share 1% | Team total 21.0,
