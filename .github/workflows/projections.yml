@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name "projections-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add projections.csv updated.txt
+          git add projections.csv updated.txt schedule.csv
           git commit -m "Projections $(cat updated.txt | cut -c1-60)" || echo "no change"
           git pull --rebase -X theirs origin main || true
           git push

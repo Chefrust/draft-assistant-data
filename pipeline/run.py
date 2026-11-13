@@ -124,3 +124,21 @@ out.to_csv(os.path.join(ROOT, 'projections.csv'), index=False)
 with open(os.path.join(ROOT, 'updated.txt'), 'w') as fh:
     fh.write(f'{datetime.datetime.now(datetime.UTC):%Y-%m-%d %H:%M} UTC  season {season} week {week}  {len(out)} players  {len(out_ids)} ruled out\n')
 print(open(os.path.join(ROOT, 'updated.txt')).read())
+
+# --- schedule outlook: every team's remaining regular-season games, with how many fantasy points
+# each opponent's defense has allowed per game to each position this season (rank 1 = allows the most).
+pg = pd.read_parquet(f'{WORK}/player_games.parquet')
+cur = pg[(pg.season == season) & (pg.week < week) & pg.position.isin(['QB', 'RB', 'WR', 'TE'])]
+allowed = cur.groupby(['opp', 'game_id', 'position']).ppr.sum().groupby(['opp', 'position']).mean().unstack()
+rank = allowed.rank(ascending=False, method='min')
+rows = []
+left = g[(g.week >= week)]
+for r in left.itertuples():
+    for team, opp, home in ((r.home_team, r.away_team, 1), (r.away_team, r.home_team, 0)):
+        row = dict(season=season, week=int(r.week), team=team, opp=opp, home=home, played=int(pd.notna(r.home_score)))
+        for p in ['QB', 'RB', 'WR', 'TE']:
+            row[f'{p.lower()}_allowed'] = round(float(allowed.at[opp, p]), 1) if opp in allowed.index else ''
+            row[f'{p.lower()}_rank'] = int(rank.at[opp, p]) if opp in rank.index else ''
+        rows.append(row)
+pd.DataFrame(rows).sort_values(['team', 'week']).to_csv(os.path.join(ROOT, 'schedule.csv'), index=False)
+print('schedule rows', len(rows))
