@@ -1,39 +1,22 @@
-"""Prints what Polymarket's public API lists for the NFL, to see market types and question wording."""
-import json, urllib.request, collections
+"""Checks Polymarket's /markets filters for NFL bets with real money behind them."""
+import json, urllib.request, collections, datetime
 def get(u):
-    with urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'draft-assistant', 'Accept': 'application/json'}), timeout=60) as r: return json.load(r)
-try:
-    get('https://gamma-api.polymarket.com/events?limit=1')
-    print('plain events call ok')
-except Exception as e:
-    print('plain events call failed', e, getattr(e, 'headers', ''))
-for q in ['events?tag_slug=nfl&limit=5', 'events?tag_slug=nfl&closed=false&limit=5', 'events?tag_slug=nfl&active=true&limit=5', 'sports']:
+    with urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'draft-assistant', 'Accept': 'application/json'}), timeout=60) as r: return r.read()
+now = datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%dT%H:%M:%SZ')
+types = ['anytime_touchdowns', 'two_plus_touchdowns', 'passing_yards', 'passing_touchdowns', 'passing_attempts', 'rushing_yards', 'receiving_yards', 'receptions', 'totals', 'spreads', 'moneyline']
+base = 'https://gamma-api.polymarket.com/markets?tag_id=450&liquidity_num_min=1000&end_date_min=' + now + ''.join('&sports_market_types=' + t for t in types)
+allm, size = [], 0
+for lim in (100, 50):
     try:
-        r = get('https://gamma-api.polymarket.com/' + q)
-        print('OK', q, json.dumps(r)[:1500] if q == 'sports' else len(r))
-    except Exception as e:
-        print('FAIL', q, e)
-sports = get('https://gamma-api.polymarket.com/sports')
-nfl = [x for x in sports if str(x.get('sport', '')).lower() == 'nfl']
-print('nfl sport entry', nfl)
-ev = []
-for off in range(0, 600, 50):
-    try: page = get(f'https://gamma-api.polymarket.com/events?series_id=12185&closed=false&limit=50&offset={off}')
-    except Exception as e: print('page fail', off, e); break
-    if not page: break
-    ev += page
-print('events', len(ev))
-types = collections.Counter(); ex = collections.defaultdict(list)
-for e in ev:
-    for m in e.get('markets', []):
-        t = m.get('sportsMarketType') or '-'
-        types[t] += 1
-        if t in ('moneyline',) or 'spread' in t or 'totals' in t or t == 'exact_margin': continue
-        if str(m.get('gameStartTime') or '') < '2026-11-14': continue
-        if len(ex[t]) < 4: ex[t].append((e.get('title'), e.get('slug'), m.get('question'), m.get('line'), m.get('outcomes'), m.get('outcomePrices'), m.get('gameStartTime'), m.get('groupItemTitle')))
-print(types.most_common())
-print('keys', sorted(ev[-1]['markets'][0].keys()))
-for t, xs in ex.items():
-    print('==', t)
-    for x in xs: print('  ', x)
-print('titles', [e.get('title') for e in ev[:40]])
+        raw = get(base + f'&limit={lim}&offset=0'); print('limit', lim, 'ok', len(raw), 'bytes'); break
+    except Exception as e: print('limit', lim, 'failed', e)
+for off in range(0, 3000, lim):
+    raw = get(base + f'&limit={lim}&offset={off}'); size += len(raw); page = json.loads(raw)
+    allm += page
+    if len(page) < lim: break
+print('markets', len(allm), 'bytes', size)
+c = collections.Counter(m.get('sportsMarketType') for m in allm); print(c.most_common())
+for m in allm[:12]:
+    print((m.get('question'), m.get('line'), m.get('outcomes'), m.get('bestBid'), m.get('bestAsk'), m.get('liquidity'), m.get('gameStartTime'), [e.get('slug') for e in m.get('events', [])][:1]))
+liq = [m for m in allm if m.get('bestBid') is not None and m.get('bestAsk') is not None and float(m['bestAsk']) - float(m['bestBid']) <= .08]
+print('tight', len(liq), collections.Counter(m.get('sportsMarketType') for m in liq).most_common())
