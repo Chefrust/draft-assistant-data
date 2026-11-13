@@ -1,7 +1,12 @@
 """Prints what Polymarket's public API lists for the NFL, to see market types and question wording."""
 import json, urllib.request, collections
 def get(u):
-    with urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'draft-assistant'}), timeout=60) as r: return json.load(r)
+    with urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'draft-assistant', 'Accept': 'application/json'}), timeout=60) as r: return json.load(r)
+try:
+    get('https://gamma-api.polymarket.com/events?limit=1')
+    print('plain events call ok')
+except Exception as e:
+    print('plain events call failed', e, getattr(e, 'headers', ''))
 ev = []
 for off in range(0, 1000, 100):
     page = get(f'https://gamma-api.polymarket.com/events?tag_slug=nfl&closed=false&limit=100&offset={off}')
