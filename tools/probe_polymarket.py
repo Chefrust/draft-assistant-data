@@ -28,8 +28,11 @@ for e in ev:
     for m in e.get('markets', []):
         t = m.get('sportsMarketType') or '-'
         types[t] += 1
-        if len(ex[t]) < 6: ex[t].append((e.get('title'), e.get('slug'), m.get('question'), m.get('line'), m.get('outcomes'), m.get('outcomePrices'), m.get('gameStartTime'), m.get('groupItemTitle')))
+        if t in ('moneyline',) or 'spread' in t or 'totals' in t or t == 'exact_margin': continue
+        if str(m.get('gameStartTime') or '') < '2026-11-14': continue
+        if len(ex[t]) < 4: ex[t].append((e.get('title'), e.get('slug'), m.get('question'), m.get('line'), m.get('outcomes'), m.get('outcomePrices'), m.get('gameStartTime'), m.get('groupItemTitle')))
 print(types.most_common())
+print('keys', sorted(ev[-1]['markets'][0].keys()))
 for t, xs in ex.items():
     print('==', t)
     for x in xs: print('  ', x)
