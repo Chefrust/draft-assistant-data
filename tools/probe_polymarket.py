@@ -7,11 +7,21 @@ try:
     print('plain events call ok')
 except Exception as e:
     print('plain events call failed', e, getattr(e, 'headers', ''))
+for q in ['events?tag_slug=nfl&limit=5', 'events?tag_slug=nfl&closed=false&limit=5', 'events?tag_slug=nfl&active=true&limit=5', 'sports']:
+    try:
+        r = get('https://gamma-api.polymarket.com/' + q)
+        print('OK', q, json.dumps(r)[:1500] if q == 'sports' else len(r))
+    except Exception as e:
+        print('FAIL', q, e)
+sports = get('https://gamma-api.polymarket.com/sports')
+nfl = [x for x in sports if str(x.get('sport', '')).lower() == 'nfl']
+print('nfl sport entry', nfl)
 ev = []
-for off in range(0, 1000, 100):
-    page = get(f'https://gamma-api.polymarket.com/events?tag_slug=nfl&closed=false&limit=100&offset={off}')
+for off in range(0, 600, 50):
+    try: page = get(f'https://gamma-api.polymarket.com/events?tag_slug=nfl&active=true&limit=50&offset={off}')
+    except Exception as e: print('page fail', off, e); break
     if not page: break
-    ev += page
+    ev += [e for e in page if not e.get('closed')]
 print('events', len(ev))
 types = collections.Counter(); ex = collections.defaultdict(list)
 for e in ev:
