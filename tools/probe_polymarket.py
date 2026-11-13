@@ -18,10 +18,10 @@ nfl = [x for x in sports if str(x.get('sport', '')).lower() == 'nfl']
 print('nfl sport entry', nfl)
 ev = []
 for off in range(0, 600, 50):
-    try: page = get(f'https://gamma-api.polymarket.com/events?tag_slug=nfl&active=true&limit=50&offset={off}')
+    try: page = get(f'https://gamma-api.polymarket.com/events?series_id=12185&closed=false&limit=50&offset={off}')
     except Exception as e: print('page fail', off, e); break
     if not page: break
-    ev += [e for e in page if not e.get('closed')]
+    ev += page
 print('events', len(ev))
 types = collections.Counter(); ex = collections.defaultdict(list)
 for e in ev:
