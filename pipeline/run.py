@@ -43,9 +43,15 @@ reg = lambda: HistGradientBoostingRegressor(learning_rate=.05, max_iter=300, min
 models = {'ppr': reg().fit(pw[F], pw.ppr)}
 for col in ['rec', 'rec_yd', 'rush_yd', 'rec_td', 'rush_td']:
     models[col] = reg().fit(pw[F], pw[col])
+models['car'] = reg().fit(pw[F], pw.car.fillna(0))
 qb = pw[pw.att >= 10]
-for col in ['pass_yd', 'pass_td', 'ints']:
+for col in ['pass_yd', 'pass_td', 'ints', 'att', 'cmp']:
     models[col] = reg().fit(qb[F], qb[col])
+# Touchdown chances: anytime (1+ rushing or receiving TD) and 2+. Tested on 2026 Weeks 5-8: within a
+# point or two of the real rate in every band, by position too.
+clf = lambda: HistGradientBoostingClassifier(learning_rate=.05, max_iter=300, min_samples_leaf=100, l2_regularization=1.0, random_state=1)
+tds = pw.rec_td.fillna(0) + pw.rush_td.fillna(0)
+td_models = {'td_prob': clf().fit(pw[F], (tds >= 1).astype(int)), 'td2_prob': clf().fit(pw[F], (tds >= 2).astype(int))}
 
 # --- next week: first week of this season with a game not yet played
 g = pd.read_csv(f'{DATA}/games.csv')
@@ -62,7 +68,9 @@ f['pos_i'] = f.position.map({'QB': 0, 'RB': 1, 'WR': 2, 'TE': 3})
 f = f[(f.position != 'QB') | f.starter.fillna(False).astype(bool)]
 for k, m in models.items():
     f[k] = np.clip(m.predict(f[F]), 0, None)
-f.loc[f.position != 'QB', ['pass_yd', 'pass_td', 'ints']] = 0
+f.loc[f.position != 'QB', ['pass_yd', 'pass_td', 'ints', 'att', 'cmp']] = 0
+for k, m in td_models.items():
+    f[k] = m.predict_proba(f[F])[:, 1]
 
 def why(r):
     w = []
@@ -117,8 +125,9 @@ def banged(r):
     return ' | '.join(notes)
 f['banged'] = f.apply(banged, axis=1)
 f['sleeper_id'] = f.sleeper_id.astype(str).str.replace(r'\.0$', '', regex=True)
-out = f[['season', 'week', 'sleeper_id', 'pid', 'full_name', 'position', 'team', 'opp', 'ppr', 'rec', 'rec_yd', 'rush_yd', 'rec_td', 'rush_td', 'pass_yd', 'pass_td', 'ints', 'why', 'banged']]
-out = out.rename(columns={'pid': 'gsis_id', 'full_name': 'name', 'ints': 'pass_int'})
+out = f[['season', 'week', 'sleeper_id', 'pid', 'full_name', 'position', 'team', 'opp', 'ppr', 'rec', 'rec_yd', 'rush_yd', 'rec_td', 'rush_td', 'pass_yd', 'pass_td', 'ints', 'why', 'banged',
+         'att', 'cmp', 'car', 'td_prob', 'td2_prob']]
+out = out.rename(columns={'pid': 'gsis_id', 'full_name': 'name', 'ints': 'pass_int', 'att': 'pass_att', 'cmp': 'pass_cmp', 'car': 'rush_att'})
 out = out.sort_values('ppr', ascending=False).round(3)
 out.to_csv(os.path.join(ROOT, 'projections.csv'), index=False)
 with open(os.path.join(ROOT, 'updated.txt'), 'w') as fh:
