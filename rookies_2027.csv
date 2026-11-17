@@ -1,49 +1,49 @@
 rank,name,pos,school,avg,sources,best,worst
 1,Jeremiah Smith,WR,Ohio State,1,4,1,1
 2,Darian Mensah,QB,Miami,4.8,4,3,6
-3,Jadan Baugh,RB,Florida,5,4,2,7
-4,Charlie Becker,WR,Indiana,7.5,4,3,16
-5,Cam Coleman,WR,Texas,7.8,4,4,10
-6,KJ Duff,WR,Rutgers,8.8,4,7,11
-7,Dante Moore,QB,Oregon,9,4,2,17
-8,Drew Mestemaker,QB,Oklahoma State,9.8,4,2,17
-9,Kewan Lacy,RB,Ole Miss,12,4,5,23
-10,CJ Carr,QB,Notre Dame,13,4,7,17
-11,Nick Marsh,WR,Indiana,14.2,4,8,19
-12,Ryan Coleman-Williams,WR,Alabama,14.2,4,6,20
-13,Arch Manning,QB,Texas,14.8,3,4,12
-14,Ahmad Hardy,RB,Missouri,17.2,3,10,15
-15,Nate Frazier,RB,Georgia,17.2,4,6,37
-16,Trey'Dez Green,TE,LSU,18.8,4,13,32
-17,Jamari Johnson,TE,Oregon,19,4,11,31
-18,Jayden Maiava,QB,USC,20,3,13,22
-19,Trinidad Chambliss,QB,Mississippi,20.8,3,3,14
-20,Mark Fletcher Jr.,RB,Miami,21,3,14,20
-21,Julian Sayin,QB,Ohio State,22.8,2,3,25
-22,LJ Martin,RB,BYU,25,3,23,27
-23,Bryant Wesco Jr.,WR,Clemson,25.2,4,19,41
-24,Isaac Brown,RB,Louisville,26,3,15,43
-25,LaNorris Sellers,QB,South Carolina,26.8,2,20,24
-26,Mario Craver,WR,Texas A&M,27,2,25,29
-27,Reed Harris,WR,Arizona State,27.2,2,9,14
-28,Raleek Brown,RB,Texas,29.5,2,28,31
-29,Justice Haynes,RB,Georgia Tech,30.7,3,19,49
-30,Duce Robinson,WR,Florida State,33.5,2,30,37
-31,Hollywood Smothers,RB,Texas,33.5,2,22,45
-32,Antwan Raymond,RB,Rutgers,35,1,21,21
-33,Isaiah Sategna III,WR,Oklahoma,35,2,26,44
-34,Ryan Wingo,WR,Texas,36.5,2,35,38
-35,Deuce Alexander,WR,Ole Miss,37.3,2,24,32
-36,Jahiem White,RB,North Texas,38.8,2,21,21
-37,Brendan Sorsby,QB,Texas Tech,39,2,36,42
-38,J'Koby Williams,RB,Texas Tech,41,1,18,18
-39,Terrance Carter Jr.,TE,Texas Tech,41,2,40,42
-40,Omarion Miller,WR,Arizona State,41.5,1,27,27
-41,Wyatt Young,WR,Oklahoma State,41.7,2,22,47
-42,Cameron Dickey,RB,Texas Tech,42,1,28,28
-43,DeSean Bishop,RB,Tennessee,42,2,26,58
-44,Fluff Bothwell,RB,Mississippi State,43,2,23,50
-45,CJ Baxter,RB,Kentucky,43.5,2,33,54
-46,Eric Singleton Jr.,WR,Florida,43.5,2,30,57
-47,TJ Moore,WR,Clemson,44.5,1,33,33
-48,Wayne Knight,RB,UCLA,45,1,34,34
+3,Jadan Baugh,RB,Florida,5.2,4,2,9
+4,Charlie Becker,WR,Indiana,7,4,4,13
+5,Cam Coleman,WR,Texas,7.5,4,4,10
+6,Dante Moore,QB,Oregon,8.5,4,2,17
+7,KJ Duff,WR,Rutgers,9,4,7,12
+8,Drew Mestemaker,QB,Oklahoma State,10,4,2,18
+9,Kewan Lacy,RB,Ole Miss,11,4,7,17
+10,CJ Carr,QB,Notre Dame,12,4,5,17
+11,Arch Manning,QB,Texas,14.5,3,4,11
+12,Nick Marsh,WR,Indiana,14.5,4,8,20
+13,Ryan Coleman-Williams,WR,Alabama,14.8,4,6,20
+14,Nate Frazier,RB,Georgia,17,4,6,37
+15,Trey'Dez Green,TE,LSU,17.5,4,13,29
+16,Jamari Johnson,TE,Oregon,18,4,11,28
+17,Ahmad Hardy,RB,Missouri,18.8,3,11,16
+18,Jayden Maiava,QB,USC,20.2,4,15,28
+19,Trinidad Chambliss,QB,Mississippi,20.2,3,3,12
+20,Julian Sayin,QB,Ohio State,20.5,3,3,25
+21,Mark Fletcher Jr.,RB,Miami,21.2,3,15,20
+22,Bryant Wesco Jr.,WR,Clemson,25,4,19,39
+23,Isaac Brown,RB,Louisville,25.3,3,14,43
+24,LJ Martin,RB,BYU,25.8,4,23,29
+25,Mario Craver,WR,Texas A&M,26,3,24,29
+26,Reed Harris,WR,Arizona State,26.2,3,9,26
+27,LaNorris Sellers,QB,South Carolina,28.3,3,24,34
+28,Justice Haynes,RB,Georgia Tech,31.3,3,22,49
+29,Ryan Wingo,WR,Texas,31.7,3,24,38
+30,Duce Robinson,WR,Florida State,33,3,30,38
+31,Raleek Brown,RB,Texas,35.7,2,31,32
+32,Hollywood Smothers,RB,Texas,36.7,2,21,45
+33,DeSean Bishop,RB,Tennessee,37.7,3,25,58
+34,Isaiah Sategna III,WR,Oklahoma,38,2,26,44
+35,Omarion Miller,WR,Arizona State,38.3,2,27,32
+36,Antwan Raymond,RB,Rutgers,38.5,1,21,21
+37,TJ Moore,WR,Clemson,38.7,2,27,33
+38,Brendan Sorsby,QB,Texas Tech,39,2,36,42
+39,Deuce Alexander,WR,Ole Miss,39,2,24,32
+40,Terrance Carter Jr.,TE,Texas Tech,40,2,40,40
+41,Wyatt Young,WR,Oklahoma State,40.2,3,22,47
+42,Fluff Bothwell,RB,Mississippi State,41,3,23,50
+43,Jahiem White,RB,West Virginia,42.5,2,21,22
+44,Cameron Dickey,RB,Texas Tech,42.7,1,28,28
+45,Eric Singleton Jr.,WR,Florida,43.5,2,30,57
+46,Luke Reynolds,TE,Virginia Tech,44,3,33,51
+47,CJ Baxter,RB,Kentucky,44.5,2,35,54
+48,Wayne Knight,RB,UCLA,44.7,1,34,34
